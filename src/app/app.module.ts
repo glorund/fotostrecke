@@ -5,20 +5,23 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { GalleryComponent } from './gallery/gallery.component';
-import { HeaderComponent } from './header/header.component';
+import { MenuHeaderComponent } from './menu-header/menu-header.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
+    AppComponent,
+    GalleryComponent,
+    MenuHeaderComponent,
     RouterModule.forRoot([
-      { path: '', component: AppComponent },
+      { path: '', component: GalleryComponent },
     ])
   ],
   declarations: [
     AppComponent,
     GalleryComponent,
-    HeaderComponent
+    MenuHeaderComponent
   ],
   bootstrap: [
     AppComponent
