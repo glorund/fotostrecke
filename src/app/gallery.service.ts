@@ -12,7 +12,7 @@ export class GalleryService {
   ) {}
 
   getGalleryImages() {
-    return this.http.get('/assets/gallery.json');
+    return this.http.get('./assets/gallery.json');
   }
 }
 
