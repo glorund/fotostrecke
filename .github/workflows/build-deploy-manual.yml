@@ -12,7 +12,7 @@ on:
         # Input has to be provided for the workflow to run
         required: true
 jobs:
-  build-and-deploy:
+  build-and-deploy-manual:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
