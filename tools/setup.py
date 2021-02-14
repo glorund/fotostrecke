@@ -10,9 +10,15 @@ import sys
 import json
 import re
 
+from PIL import Image
+from PIL.ExifTags import TAGS
+from PIL.IptcImagePlugin import 
+
 PATH = os.path.dirname(__file__) + '/../'
 RELATIVE_PATH = 'src/assets/photos'
+WEB_RELATIVE_PATH = 'assets/photos'
 PHOTO_PATH = PATH + RELATIVE_PATH
+OUTPUT_FILE = PATH + 'src/assets/generated.json'
 
 
 def is_original(path):
@@ -55,25 +61,32 @@ def get_images(path):
     result = []
     for img in filtered_items:
         width, height = 0, 0
+        content_type = ""
         has_compressed = False
         p = './' + RELATIVE_PATH + '/' + path + '/' + img
+        web_path = './' + WEB_RELATIVE_PATH + '/' + path + '/' + img
         with open(PHOTO_PATH + '/' + path + '/' + img, 'rb') as f:
-            _, width, height = getImageInfo(f.read())
+            content_type, width, height = getImageInfo(f.read())
         if os.path.isfile(get_min_path(p)):
             has_compressed = True
+        print('image {} {} {}'.format(img+' '+content_type, width, height) )
+        exif = get_exif(PHOTO_PATH + '/' + path + '/' + img)
+        labeled = get_labeled_exif(exif)
+        # print(labeled)
+        print(labeled['ImageDescription'])
         result.append({
             'width': width,
             'height': height,
-            'path': './' + RELATIVE_PATH + '/' + path + '/' + img,
-            'compressed_path': get_min_path(p),
+            'path': web_path,
+            'compressed_path': get_min_path(web_path),
             'compressed': has_compressed,
-            'placeholder_path': get_placeholder_path(p)
+            'placeholder_path': get_placeholder_path(web_path)
         })
     return result
 
 
 def write_config(config):
-    with open(PATH + 'config.json', 'w') as f:
+    with open(OUTPUT_FILE, 'w') as f:
         f.write(json.dumps(config, indent=2, separators=(',', ': ')))
 
 
@@ -94,10 +107,7 @@ def run():
     print('Done processing all {length} albums'.format(length=len(dirs)))
     print('Writing files to {path} now...'.format(path=PATH + 'config.json'))
     write_config(config)
-    print('''Done writing! You may now safely close this window :)
-
-Thank you for using gallery! Share your gallery on Github!
-https://github.com/andyzg/gallery/issues/1''')
+    print('''Done writing! You may now safely close this window :)''')
     return 0
 
 
@@ -160,6 +170,18 @@ def getImageInfo(data):
             pass
 
     return content_type, width, height
+
+def get_exif(filename):
+    image = Image.open(filename)
+    image.verify()
+    return image._getexif()
+
+def get_labeled_exif(exif):
+    labeled = {}
+    for (key, val) in exif.items():
+        labeled[TAGS.get(key)] = val
+
+    return labeled
 
 if __name__ == '__main__':
     sys.exit(run())

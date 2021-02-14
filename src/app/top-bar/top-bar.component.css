@@ -14,7 +14,15 @@
 }
 
 .mat-button {
-    font-size: 1.3vw;
-    margin-left: 1.2vmax;
-    margin-right: 1.2vmax;
+    font-size: 2.2vw;
+    margin-left: 1vmax;
+    margin-right: 1vmax;
 }
+
+@media (min-width: 800px) {
+    .mat-button {
+        font-size: 1.3vw;
+        margin-left: 1.2vmax;
+        margin-right: 1.2vmax;
+    }
+} 

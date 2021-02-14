@@ -22,6 +22,7 @@ import { GalleryComponent } from './gallery/gallery.component';
     MatButtonModule,
     RouterModule.forRoot([
       { path: '', component: GalleryComponent },
+      { path: 'gallery/:name', component: GalleryComponent }
     ])
   ],
   declarations: [

@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -11,8 +12,8 @@ export class GalleryService {
     private http: HttpClient
   ) {}
 
-  getGalleryImages() {
-    return this.http.get('./assets/gallery.json');
+  getGalleryImages(galleryName: string): Observable<object> {
+    return this.http.get('./assets/' + galleryName + '.json');
   }
 }
 

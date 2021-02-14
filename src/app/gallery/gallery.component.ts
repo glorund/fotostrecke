@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, HostListener } from '@angular/core';
 import { GalleryService } from '../gallery.service';
-import { HostListener } from "@angular/core";
+import { ActivatedRoute } from '@angular/router';
 
 export class Image {
   width: number;
@@ -29,7 +29,7 @@ export class Image {
   styleUrls: ['./gallery.component.css']
 })
 export class GalleryComponent implements OnInit {
-
+  @Input() galleryName: string;
   gallery: Array<Array<Image>> = new Array();
   images: Array<Image> = new Array();
 
@@ -37,60 +37,40 @@ export class GalleryComponent implements OnInit {
   spacing = 6;
   rowSize = 4;
   screenWidth: number;
+  sub: any;
 
-  galleryImages = this.galleryService.getGalleryImages();
-
-  constructor(private galleryService: GalleryService) {
+  constructor(private galleryService: GalleryService,
+    private activatedRoute: ActivatedRoute) {
   }
 
   ngOnInit(): void {
-    this.fetchDataAndRender();
-    this.onResize();
+    this.screenWidth = window.innerWidth - 100;
+    this.sub = this.activatedRoute.paramMap.subscribe(params => {
+      console.log(params);
+      this.galleryName = params.get('name');
+      if (!this.galleryName ) {
+        this.galleryName = 'main';
+      }
+      this.fetchDataAndRender();
+   });
   }
 
-  @HostListener('window:resize', ['$event']) onResize(event?) {
+  @HostListener('window:resize', ['$event']) onResize(event?): void {
     this.screenWidth = window.innerWidth - 100;
     if (this.screenWidth < 300) {
       this.screenWidth = 300;
     }
     console.log('screenWidth' + this.screenWidth + ' images ' + this.images.length);
     this.fetchDataAndRender();
-    // this.gallery = this.render(this.images);
-    // this.refreshNavigationErrorState()
-    // this.changeDetectorRef.detectChanges()
   }
 
-  private fetchDataAndRender(): void {
-      this.galleryImages.subscribe (
-        (imagesList: Array<Image>) => {
-          this.gallery = this.render(imagesList);
-        }
-      );
-  //   this.http.get(this.imageDataCompletePath)
-  //     .subscribe(
-  //       (data: Array<any>) => {
-  //               this.images = data
-  //               this.imageService.updateImages(this.images)
-
-  //               this.images.forEach(image => {
-  //                 image['galleryImageLoaded'] = false
-  //                 image['viewerImageLoaded'] = false
-  //                 image['srcAfterFocus'] = ''
-  //               })
-  //               // twice, single leads to different strange browser behaviour
-  //               this.render()
-  //               this.render()
-  //           },
-  //         err => {
-  //               if (this.providedMetadataUri) {
-  //                 console.error(`Provided endpoint '${this.providedMetadataUri}' did not serve metadata correctly or in the expected format.
-  // See here for more information: https://github.com/BenjaminBrandmeier/angular2-image-gallery/blob/master/docs/externalDataSource.md,
-  // Original error: ${err}`)
-  //               } else {
-  //                   console.error(`Did you run the convert script from angular2-image-gallery for your images first? Original error: ${err}`)
-  //               }
-  //         },
-  //       () => undefined)
+private fetchDataAndRender(): void {
+  const galleryImages = this.galleryService.getGalleryImages(this.galleryName);
+  galleryImages.subscribe (
+    (imagesList: Array<Image>) => {
+      this.gallery = this.render(imagesList);
+    }
+  );
 }
 
 // section
@@ -110,7 +90,7 @@ private render(images: Array<Image>): Array<Array<Image>> {
 
   while (images.length > 0) {
     let maxWidth = this.spacing * -1;
-    let rowImages: Array<Image> = [];
+    const rowImages: Array<Image> = [];
 
     while (true) {
       const image = images.shift();
@@ -134,31 +114,18 @@ private render(images: Array<Image>): Array<Array<Image>> {
   return gallery;
 }
 
-// private shouldAddCandidate(imgRow: Array<any>, candidate: any): boolean {
-//     const oldDifference = this.calcIdealHeight() - this.calcRowHeight(imgRow)
-//     imgRow.push(candidate)
-//     const newDifference = this.calcIdealHeight() - this.calcRowHeight(imgRow)
-
-//     return Math.abs(oldDifference) > Math.abs(newDifference)
-// }
-
   /**
    * Calculates the height of the square photos
    */
   private calculateHeight(currentWidth: number, length: number): number {
     return (currentWidth - (this.rowSize - 1) * this.spacing) / this.rowSize;
   }
-
   /**
    * Creates a row of photos with fixed height
    */
   private createRow(currentViewWidth: number, imagesRow: Array<Image>, isIncomplete = false): void{
-    // var rowElem = document.createElement('div');
-    // rowElem.className = 'sectionrow';
-    // rowElem.style.marginBottom = px(config.spacing);
-
     // Calculate height of element
-    let targetWidth = currentViewWidth - (imagesRow.length - 1) * this.spacing;
+    const targetWidth = currentViewWidth - (imagesRow.length - 1) * this.spacing;
     let sumWidth = 0;
     imagesRow.forEach( img => {
       sumWidth += this.maxHeight * img.aspectRatio;

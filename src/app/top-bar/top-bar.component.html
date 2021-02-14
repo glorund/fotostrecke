@@ -9,8 +9,8 @@
 
   <button mat-button [matMenuTriggerFor]="belowMenu">Gallery</button>
   <mat-menu #belowMenu="matMenu" yPosition="below">
-    <button mat-menu-item>Item 1</button>
-    <button mat-menu-item>Item 2</button>
+    <button mat-menu-item [routerLink]="['/gallery/main']">main</button>
+    <button mat-menu-item [routerLink]="['/gallery/travel']">travel</button>
   </mat-menu>
 
   <button mat-button [matMenuTriggerFor]="beforeMenu">I'm menu item</button>
