@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
@@ -15,6 +16,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 @NgModule({
   imports: [
     BrowserModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     MatMenuModule,
     MatButtonModule,
@@ -24,7 +26,8 @@ import { GalleryComponent } from './gallery/gallery.component';
   ],
   declarations: [
     AppComponent,
-    TopBarComponent
+    TopBarComponent,
+    GalleryComponent
   ],
   bootstrap: [
     AppComponent

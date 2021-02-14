@@ -1,16 +1,28 @@
-<!--------------- YOUR NAME OVER HERE -------------->
-<h2 class="header">Agenessa Cherednychenko</h2>
-<div>
-    <div>
-    <div>
-        <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Galleries</a></li>
-        <li><a href="#">Information</a></li>
-        <li><a href="#">Prices</a></li>
-        <li><a href="#">say Hello</a></li>
-        </ul>
-    </div>
-    </div>
-</div>
+<h2 class="header">Agnessa Cherednychenko</h2>
 
+<div class="top-bar">
+  <button mat-button [matMenuTriggerFor]="aboveMenu">Home</button>
+  <mat-menu #aboveMenu="matMenu" yPosition="above">
+    <button mat-menu-item>Item 1</button>
+    <button mat-menu-item>Item 2</button>
+  </mat-menu>
+
+  <button mat-button [matMenuTriggerFor]="belowMenu">Gallery</button>
+  <mat-menu #belowMenu="matMenu" yPosition="below">
+    <button mat-menu-item>Item 1</button>
+    <button mat-menu-item>Item 2</button>
+  </mat-menu>
+
+  <button mat-button [matMenuTriggerFor]="beforeMenu">I'm menu item</button>
+  <mat-menu #beforeMenu="matMenu" xPosition="before">
+    <button mat-menu-item>Item 1</button>
+    <button mat-menu-item>Item 2</button>
+  </mat-menu>
+
+
+  <button mat-button [matMenuTriggerFor]="afterMenu">Contact</button>
+  <mat-menu #afterMenu="matMenu" xPosition="after">
+    <button mat-menu-item>Item 1</button>
+    <button mat-menu-item>Item 2</button>
+  </mat-menu>
+</div>
