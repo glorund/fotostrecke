@@ -1,13 +1,7 @@
 <div id="gallery">
-<div class="view w-100" *ngFor="let image of galleryImages | async">
-    <img class="d-block w-100" [src] = "image.compressed_path" >
-</div>
-
-<div id="legacy-gallery">
-    <div class="view w-100">
-        <img class="d-block w-100" src="assets/photos/fun-art/IMG_20191225_142016.min.jpg" alt="First slide">
-        <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+    <div class="view w-100" *ngFor="let row of gallery">
+            <img style="text-align: left;" *ngFor="let image of row" 
+                    class="d-block w-100" style="margin-left: {{image.padding}}px;"
+                    [src] = "image.compressed_path" [width]="image.width" [height]="image.height"/>
     </div>
-    
-</div>
-  
+</div>  
