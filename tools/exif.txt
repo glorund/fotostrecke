@@ -1,0 +1,73 @@
+{'ExifVersion': b'0231',
+'ShutterSpeedValue': 9.321928,
+'ApertureValue': 4.970854,
+'DateTimeOriginal': '2019:06:28 15:35:13',
+'DateTimeDigitized': '2019:06:28 15:35:13',
+ 'ExposureBiasValue': 0.0,
+ 'MaxApertureValue': 4.0,
+
+ 'MeteringMode': 6,
+
+ 'ColorSpace': 1,
+
+ 'Flash': 16,
+
+ 'FocalLength': 105.0,
+
+ 'ExposureMode': 0,
+
+ 'WhiteBalance': 0,
+
+ 'SceneCaptureType': 0,
+
+ 'FocalPlaneXResolution': 1520.0,
+
+ 'FocalPlaneYResolution': 1520.0,
+
+ None: 100,
+
+ 'SubsecTimeOriginal': '00',
+
+ 'SubsecTimeDigitized': '00',
+ 'FocalPlaneResolutionUnit': 3,
+ 'Model': 'Canon EOS 6D',
+ 'Make': 'Canon',
+ 'ExposureTime': 0.0015625,
+ 'XResolution': 240.0,
+ 'YResolution': 240.0,
+ 'FNumber': 5.6,
+ 'ExposureProgram': 3,
+ 'GPSInfo': {0: b'\x02\x03\x00\x00',
+ 1: 'N',
+ 2: (52.0,
+ 28.0771,
+ 0.0),
+ 3: 'E',
+ 4: (13.0,
+ 33.3418,
+ 0.0),
+ 5: b'\x00',
+ 6: 45.0,
+ 7: (12.0,
+ 34.0,
+ 11.887),
+ 8: '12',
+ 9: 'A',
+ 10: '3',
+ 11: 4.3,
+ 18: 'WGS-84',
+ 29: '2019:06:28'},
+ 'CustomRendered': 0,
+ 'ISOSpeedRatings': 100,
+ 'ResolutionUnit': 2,
+ 'BodySerialNumber': '341051000191',
+ 'LensSpecification': (24.0,
+ 105.0,
+ nan,
+ nan),
+ 'LensModel': 'EF24-105mm f/4L IS USM',
+ 'LensSerialNumber': '0000a1854b',
+ 'Software': 'Adobe Photoshop Lightroom Classic 8.3.1 (Windows)',
+ 'DateTime': '2019:06:29 08:55:29',
+ 'Artist': 'Roman Cherednychenko',
+ 'ExifOffset': 262}
