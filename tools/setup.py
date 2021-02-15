@@ -12,7 +12,6 @@ import re
 
 from PIL import Image
 from PIL.ExifTags import TAGS
-from PIL.IptcImagePlugin import 
 
 PATH = os.path.dirname(__file__) + '/../'
 RELATIVE_PATH = 'src/assets/photos'
@@ -73,7 +72,7 @@ def get_images(path):
         exif = get_exif(PHOTO_PATH + '/' + path + '/' + img)
         labeled = get_labeled_exif(exif)
         # print(labeled)
-        print(labeled['ImageDescription'])
+        # print(labeled['ImageDescription'])
         result.append({
             'width': width,
             'height': height,

@@ -2,6 +2,7 @@ import { Component, Input, OnInit, HostListener } from '@angular/core';
 import { GalleryService } from '../gallery.service';
 import { ActivatedRoute } from '@angular/router';
 
+
 export class Image {
   width: number;
   height: number;
@@ -23,14 +24,22 @@ export class Image {
   }
 }
 
+export class Gallery {
+  title: string;
+  decription: string;
+  images: Array<Image>;
+}
+
 @Component({
   selector: 'app-gallery',
   templateUrl: './gallery.component.html',
   styleUrls: ['./gallery.component.css']
 })
+
 export class GalleryComponent implements OnInit {
   @Input() galleryName: string;
-  gallery: Array<Array<Image>> = new Array();
+  gallery: Gallery;
+  imagesGrid: Array<Array<Image>> = new Array();
   images: Array<Image> = new Array();
 
   maxHeight = 300;
@@ -39,8 +48,7 @@ export class GalleryComponent implements OnInit {
   screenWidth: number;
   sub: any;
 
-  constructor(private galleryService: GalleryService,
-    private activatedRoute: ActivatedRoute) {
+  constructor(private galleryService: GalleryService, private activatedRoute: ActivatedRoute) {
   }
 
   ngOnInit(): void {
@@ -65,10 +73,10 @@ export class GalleryComponent implements OnInit {
   }
 
 private fetchDataAndRender(): void {
-  const galleryImages = this.galleryService.getGalleryImages(this.galleryName);
-  galleryImages.subscribe (
-    (imagesList: Array<Image>) => {
-      this.gallery = this.render(imagesList);
+  this.galleryService.getGalleryImages(this.galleryName).subscribe (
+    (gallery: Gallery) => {
+      this.gallery = gallery;
+      this.imagesGrid = this.render(gallery.images);
     }
   );
 }
