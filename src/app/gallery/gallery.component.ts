@@ -1,34 +1,7 @@
-import { Component, Input, OnInit, HostListener } from '@angular/core';
-import { GalleryService } from '../gallery.service';
+import { Component, EventEmitter, Input, OnInit, Output, HostListener, ViewChildren, QueryList } from '@angular/core';
+import { GalleryService, Photo, Gallery } from '../gallery.service';
 import { ActivatedRoute } from '@angular/router';
-
-
-export class Image {
-  width: number;
-  height: number;
-  path: string;
-  compressed_path: string;
-  compressed: boolean;
-  placeholder_path: string;
-  padding: number;
-
-  // this.aspectRatio = this.width / parseFloat(this._height);
-  aspectRatio: number;
-
-  public getWidth(height: number): number {
-    return height * this.aspectRatio;
-  }
-
-  public getHeight(width: number): number {
-    return width / this.aspectRatio;
-  }
-}
-
-export class Gallery {
-  title: string;
-  decription: string;
-  images: Array<Image>;
-}
+import { Subscription } from 'rxjs/internal/Subscription'
 
 @Component({
   selector: 'app-gallery',
@@ -39,14 +12,20 @@ export class Gallery {
 export class GalleryComponent implements OnInit {
   @Input() galleryName: string;
   gallery: Gallery;
-  imagesGrid: Array<Array<Image>> = new Array();
-  images: Array<Image> = new Array();
+  imagesGrid: Array<Array<Photo>> = new Array();
+  photos: Array<Photo> = new Array();
 
   maxHeight = 300;
   spacing = 6;
   rowSize = 4;
   screenWidth: number;
   sub: any;
+
+  viewerSubscription: Subscription;
+
+  @Output() viewerChange = new EventEmitter<boolean>();
+
+  @ViewChildren('imageElement') imageElements: QueryList<any>;
 
   constructor(private galleryService: GalleryService, private activatedRoute: ActivatedRoute) {
   }
@@ -61,6 +40,8 @@ export class GalleryComponent implements OnInit {
       }
       this.fetchDataAndRender();
    });
+    this.viewerSubscription =
+     this.galleryService.showImageViewerChanged$.subscribe((visibility: boolean) => this.viewerChange.emit(visibility))
   }
 
   @HostListener('window:resize', ['$event']) onResize(event?): void {
@@ -68,28 +49,31 @@ export class GalleryComponent implements OnInit {
     if (this.screenWidth < 300) {
       this.screenWidth = 300;
     }
-    console.log('screenWidth' + this.screenWidth + ' images ' + this.images.length);
+    console.log('screenWidth' + this.screenWidth + ' images ' + this.photos.length);
     this.fetchDataAndRender();
   }
 
 private fetchDataAndRender(): void {
-  this.galleryService.getGalleryImages(this.galleryName).subscribe (
+  this.galleryService.getGalleryImages(this.galleryName).subscribe(
     (gallery: Gallery) => {
       this.gallery = gallery;
-      this.imagesGrid = this.render(gallery.images);
+      for (const img of gallery.images) {
+        this.photos.push(new Photo(img));
+      }
+      this.imagesGrid = this.render(this.photos);
     }
   );
 }
 
 // section
-private render(images: Array<Image>): Array<Array<Image>> {
+private render(images: Array<Photo>): Array<Array<Photo>> {
   const currentViewWidth = this.screenWidth;
   const length = this.rowSize ||  Math.ceil((currentViewWidth + this.spacing) / (this.maxHeight + this.spacing));
   const height = this.calculateHeight(currentViewWidth, length);
 
   console.log(' len ' + length + ' height ' + height );
 
-  const gallery: Array<Array<Image>> = new Array();
+  const gallery: Array<Array<Photo>> = new Array();
   images.forEach(image => {
     image.aspectRatio = image.width / image.height;
   });
@@ -98,7 +82,7 @@ private render(images: Array<Image>): Array<Array<Image>> {
 
   while (images.length > 0) {
     let maxWidth = this.spacing * -1;
-    const rowImages: Array<Image> = [];
+    const rowImages: Array<Photo> = [];
 
     while (true) {
       const image = images.shift();
@@ -131,7 +115,7 @@ private render(images: Array<Image>): Array<Array<Image>> {
   /**
    * Creates a row of photos with fixed height
    */
-  private createRow(currentViewWidth: number, imagesRow: Array<Image>, isIncomplete = false): void{
+  private createRow(currentViewWidth: number, imagesRow: Array<Photo>, isIncomplete = false): void{
     // Calculate height of element
     const targetWidth = currentViewWidth - (imagesRow.length - 1) * this.spacing;
     let sumWidth = 0;
@@ -160,6 +144,13 @@ private render(images: Array<Image>): Array<Array<Image>> {
         img.padding = this.spacing;
       }
     }
+  }
+
+  public openImageViewer(photo: Photo): void {
+    console.log('click ' + photo.compressed_path);
+    this.galleryService.updateImages(this.photos);
+    this.galleryService.updateSelectedImageIndex(this.photos.indexOf(photo))
+    this.galleryService.showImageViewer(true);
   }
 
 }

@@ -1,9 +1,11 @@
 <div id="gallery">
     <h3>{{ gallery.title }}</h3>
     <div class="view" style="text-align: left;">{{ gallery.decription }}</div>
-    <div class="view w-100" *ngFor="let row of imagesGrid">
-            <img style="text-align: left;" *ngFor="let image of row" 
-                    class="d-block w-100" style="margin-left: {{image.padding}}px;"
-                    [src] = "image.compressed_path" [width]="image.width" [height]="image.height"/>
+    <div class="view w-100" *ngFor="let row of imagesGrid; let j = index">
+        <img #imageElement style="text-align: left;" *ngFor="let image of row" 
+                class="d-block w-100" style="margin-left: {{image.padding}}px;"
+                (click) = openImageViewer(image)
+                [src] = "image.compressed_path" [width]="image.width" [height]="image.height"/>
     </div>
 </div>  
+<viewer></viewer>

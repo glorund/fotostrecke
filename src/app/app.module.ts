@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ViewerComponent } from './viewer/viewer.component';
 
 
 @NgModule({
@@ -22,13 +23,15 @@ import { GalleryComponent } from './gallery/gallery.component';
     MatButtonModule,
     RouterModule.forRoot([
       { path: '', component: GalleryComponent },
-      { path: 'gallery/:name', component: GalleryComponent }
+      { path: 'gallery/:name', component: GalleryComponent },
+      { path: 'viewer', component: ViewerComponent }
     ])
   ],
   declarations: [
     AppComponent,
     TopBarComponent,
-    GalleryComponent
+    GalleryComponent,
+    ViewerComponent
   ],
   bootstrap: [
     AppComponent
