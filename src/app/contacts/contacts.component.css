@@ -1,0 +1,15 @@
+.outerContainer {
+    padding-left: 30px;
+}
+
+.links__icon:visited,
+.links__icon:link
+.links__icon:visited,
+.outerContainer a, a:visited, a:link  {
+    color: 000000;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 8px;
+    transition: 0.2s color;
+    line-height: 24px;
+}

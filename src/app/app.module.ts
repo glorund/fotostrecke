@@ -12,6 +12,7 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ViewerComponent } from './viewer/viewer.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 
 @NgModule({
@@ -22,16 +23,17 @@ import { ViewerComponent } from './viewer/viewer.component';
     MatMenuModule,
     MatButtonModule,
     RouterModule.forRoot([
-      { path: '', component: GalleryComponent },
       { path: 'gallery/:name', component: GalleryComponent },
-      { path: 'viewer', component: ViewerComponent }
+      { path: 'viewer', component: ViewerComponent },
+      { path: 'contacts.jsp', component: ContactsComponent }
     ])
   ],
   declarations: [
     AppComponent,
     TopBarComponent,
     GalleryComponent,
-    ViewerComponent
+    ViewerComponent,
+    ContactsComponent
   ],
   bootstrap: [
     AppComponent
