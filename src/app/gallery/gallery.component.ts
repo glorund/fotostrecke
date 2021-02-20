@@ -2,6 +2,7 @@ import {
     ChangeDetectorRef, Component, ElementRef, EventEmitter, HostListener,
     Input, OnChanges, OnDestroy, OnInit, Output, QueryList, SimpleChanges, ViewChild, ViewChildren
 } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { GalleryService, Photo, Gallery } from '../gallery.service';
 import { Subscription } from 'rxjs/internal/Subscription';
 import { HttpClient } from '@angular/common/http';
@@ -14,25 +15,19 @@ import { HttpClient } from '@angular/common/http';
 export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
 
     galleryIs: Gallery;
-    /**
-     * @deprecated use imagesGrid
-     */
-    // gallery: Array<any> = [];
-
     imageDataStaticPath = './assets/';
     imageDataCompletePath = '';
     dataFileName = 'main.json';
     images: Array<Photo> = [];
     imagesGrid: Array<Array<Photo>> = [];
-    minimalQualityCategory = 'preview_xxs';
     viewerSubscription: Subscription;
+    parameterSubcription: Subscription;
     rowIndex = 0;
-    rightArrowInactive = false;
-    leftArrowInactive = false;
+
 
     @Input('flexBorderSize') providedImageSpacing = 3;
     @Input('flexImageSize') providedImageSize: number = 7;
-    @Input('galleryName') providedGalleryName: string = '';
+    @Input('galleryName') providedGalleryName = 'main';
     @Input('metadataUri') providedMetadataUri: string = undefined;
     @Input('maxRowsPerPage') rowsPerPage: number = 200;
     @Input('imagesPerRow') imagesPerRow = 4;
@@ -47,13 +42,22 @@ export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
         this.render();
     }
 
-    constructor(public imageService: GalleryService, public http: HttpClient, public changeDetectorRef: ChangeDetectorRef) {
+    constructor(public imageService: GalleryService,
+        public http: HttpClient,
+        public changeDetectorRef: ChangeDetectorRef,
+        private activatedRoute: ActivatedRoute) {
     }
 
     ngOnInit(): void {
-        this.fetchDataAndRender();
+        this.parameterSubcription = this.activatedRoute.paramMap.subscribe(params => {
+            if (params.get('name') ) {
+              this.providedGalleryName = params.get('name');
+            }
+            this.fetchDataAndRender();
+        });
+
         this.viewerSubscription = this.imageService.showImageViewerChanged$
-            .subscribe((visibility: boolean) => this.viewerChange.emit(visibility))
+            .subscribe((visibility: boolean) => this.viewerChange.emit(visibility));
     }
 
     ngOnChanges(changes: SimpleChanges): void {
@@ -67,8 +71,12 @@ export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
 
     ngOnDestroy(): void {
         if (this.viewerSubscription) {
-            this.viewerSubscription.unsubscribe()
+            this.viewerSubscription.unsubscribe();
         }
+        if (this.parameterSubcription) {
+            this.parameterSubcription.unsubscribe();
+        }
+
     }
 
     openImageViewer(img: any): void {
@@ -92,7 +100,7 @@ export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
 
         if (!this.providedMetadataUri) {
             this.imageDataCompletePath = this.providedGalleryName !== '' ?
-                `${this.imageDataStaticPath + this.providedGalleryName}/${this.dataFileName}` :
+                `${this.imageDataStaticPath + this.providedGalleryName}.json` :
                 this.imageDataStaticPath + this.dataFileName;
         }
 
@@ -219,9 +227,6 @@ export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
         //         }
         //     });
 
-        // this.minimalQualityCategory = maximumGalleryImageHeight > 375 ? 'preview_xs' : 'preview_xxs';
-        this.refreshNavigationErrorState();
-
         this.changeDetectorRef.detectChanges();
     }
 
@@ -244,14 +249,6 @@ export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
         const elementBottom = element.getBoundingClientRect().bottom;
 
         return elementTop < window.innerHeight && elementBottom >= 0 && (elementBottom > 0 || elementTop > 0)
-    }
-
-    /**
-     * @deprecated
-     */
-    private refreshNavigationErrorState(): void {
-        this.leftArrowInactive = this.rowIndex === 0;
-        this.rightArrowInactive = this.rowIndex > (this.imagesGrid.length - this.rowsPerPage);
     }
 
     // TODO new methods / refactor it
