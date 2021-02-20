@@ -1,5 +1,12 @@
-.view  {
+.galleryContainer {
     padding-left: 30px;
     /* padding-right: 20px; */
     /* text-align:center */
+}
+
+.galleryContainer img:hover {
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+    transition: all ease-out 0.2s;
+    cursor: pointer;
 }

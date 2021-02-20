@@ -20,16 +20,16 @@
 
         <div 
           class="image"
-          [@imageTransition]="photos[currentIdx].transition">
+          [@imageTransition]="photos[currentIdx].transition" >
           <img [class.active]="photos[currentIdx].active"
             [src]="photos[currentIdx].viewerImageLoaded ? photos[currentIdx].path : photos[currentIdx].placeholder_path "
             [width]="photos[currentIdx].viewWidth" [height]="photos[currentIdx].viewHeight"
           />
         </div>
 
-        <!-- <img *ngFor='let img of photos; let j = index'
+        <img *ngFor='let img of photos; let j = index'
           class="preloading-image"
           (load)="imageLoaded(img)"
-          src="{{ math.abs(currentIdx-j) <=1 ? img[currentIdx].path : ''}}"/> -->
+          src="{{ math.abs(currentIdx-j) <=1 ? img[currentIdx].path : ''}}"/>
     </div>
 </div>

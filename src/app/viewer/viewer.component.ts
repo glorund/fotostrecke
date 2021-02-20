@@ -88,12 +88,11 @@ export class ViewerComponent {
     private qualitySelectorShown = false;
 
     constructor(private imageService: GalleryService) {
-        imageService.getGalleryImages('main').subscribe(
-        (gallery: Gallery) => {
-            for (const img of gallery.images) {
-                this.photos.push(new Photo(img));
-            }
-            this.updateImage();
+
+        imageService.imagesUpdated$.subscribe(
+            images => {
+                this.photos = images;
+                console.log('VIEWER loaded images ' + this.photos);
             });
 
         imageService.imageSelectedIndexUpdated$.subscribe(

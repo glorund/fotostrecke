@@ -26,7 +26,10 @@ export class Photo implements Image {
   aspectRatio: number;
   active: boolean;
   viewerImageLoaded: boolean;
+  galleryImageLoaded: boolean;
   transition: string;
+
+  srcAfterFocus: string;
 
   constructor(source: Image) {
     this.width = source.width;
@@ -63,7 +66,7 @@ export class GalleryService {
   private imageSelectedIndexUpdatedSource = new Subject<number>();
   private showImageViewerSource = new Subject<boolean>();
 
-  imagesUpdated$: Observable<Array<any>> = this.imagesUpdatedSource.asObservable();
+  imagesUpdated$: Observable<Array<Photo>> = this.imagesUpdatedSource.asObservable();
   imageSelectedIndexUpdated$: Observable<number> = this.imageSelectedIndexUpdatedSource.asObservable();
   showImageViewerChanged$: Observable<boolean> = this.showImageViewerSource.asObservable();
 
@@ -75,7 +78,7 @@ export class GalleryService {
     return this.http.get('./assets/' + galleryName + '.json');
   }
 
-  updateImages(images: Array<any>): void {
+  updateImages(images: Array<Photo>): void {
     this.imagesUpdatedSource.next(images);
   }
 
