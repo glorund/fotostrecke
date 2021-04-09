@@ -1,4 +1,232 @@
 {
+  "art": [
+    {
+      "width": 4736,
+      "height": 3157,
+      "path": "./assets/photos/art/3.jpg",
+      "compressed_path": "./assets/photos/art/3.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/3.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./assets/photos/art/IMG_0289.jpg",
+      "compressed_path": "./assets/photos/art/IMG_0289.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_0289.placeholder.jpg"
+    },
+    {
+      "width": 3456,
+      "height": 5184,
+      "path": "./assets/photos/art/IMG_0427.jpg",
+      "compressed_path": "./assets/photos/art/IMG_0427.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_0427.placeholder.jpg"
+    },
+    {
+      "width": 3084,
+      "height": 4626,
+      "path": "./assets/photos/art/IMG_1797.jpg",
+      "compressed_path": "./assets/photos/art/IMG_1797.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_1797.placeholder.jpg"
+    },
+    {
+      "width": 3242,
+      "height": 2577,
+      "path": "./assets/photos/art/IMG_1838.jpg",
+      "compressed_path": "./assets/photos/art/IMG_1838.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_1838.placeholder.jpg"
+    },
+    {
+      "width": 3279,
+      "height": 2186,
+      "path": "./assets/photos/art/IMG_2313.jpg",
+      "compressed_path": "./assets/photos/art/IMG_2313.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_2313.placeholder.jpg"
+    },
+    {
+      "width": 5139,
+      "height": 3426,
+      "path": "./assets/photos/art/IMG_2451.jpg",
+      "compressed_path": "./assets/photos/art/IMG_2451.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_2451.placeholder.jpg"
+    },
+    {
+      "width": 2900,
+      "height": 2900,
+      "path": "./assets/photos/art/IMG_2811.jpg",
+      "compressed_path": "./assets/photos/art/IMG_2811.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_2811.placeholder.jpg"
+    },
+    {
+      "width": 5065,
+      "height": 3377,
+      "path": "./assets/photos/art/IMG_3147.jpg",
+      "compressed_path": "./assets/photos/art/IMG_3147.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_3147.placeholder.jpg"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/art/IMG_3333.jpg",
+      "compressed_path": "./assets/photos/art/IMG_3333.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_3333.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./assets/photos/art/IMG_3349.jpg",
+      "compressed_path": "./assets/photos/art/IMG_3349.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_3349.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./assets/photos/art/IMG_4264.jpg",
+      "compressed_path": "./assets/photos/art/IMG_4264.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_4264.placeholder.jpg"
+    },
+    {
+      "width": 5518,
+      "height": 3679,
+      "path": "./assets/photos/art/IMG_4418.jpg",
+      "compressed_path": "./assets/photos/art/IMG_4418.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_4418.placeholder.jpg"
+    },
+    {
+      "width": 3456,
+      "height": 5184,
+      "path": "./assets/photos/art/IMG_5891.jpg",
+      "compressed_path": "./assets/photos/art/IMG_5891.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_5891.placeholder.jpg"
+    },
+    {
+      "width": 2740,
+      "height": 2740,
+      "path": "./assets/photos/art/IMG_6629.jpg",
+      "compressed_path": "./assets/photos/art/IMG_6629.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_6629.placeholder.jpg"
+    },
+    {
+      "width": 3290,
+      "height": 3290,
+      "path": "./assets/photos/art/IMG_8881.jpg",
+      "compressed_path": "./assets/photos/art/IMG_8881.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_8881.placeholder.jpg"
+    },
+    {
+      "width": 3456,
+      "height": 5184,
+      "path": "./assets/photos/art/IMG_9692.jpg",
+      "compressed_path": "./assets/photos/art/IMG_9692.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_9692.placeholder.jpg"
+    },
+    {
+      "width": 4596,
+      "height": 3064,
+      "path": "./assets/photos/art/IMG_9700y.jpg",
+      "compressed_path": "./assets/photos/art/IMG_9700y.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_9700y.placeholder.jpg"
+    }
+  ],
+  "business portraits": [
+    {
+      "width": 3385,
+      "height": 3385,
+      "path": "./assets/photos/business portraits/IMG_0391.jpg",
+      "compressed_path": "./assets/photos/business portraits/IMG_0391.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/business portraits/IMG_0391.placeholder.jpg"
+    },
+    {
+      "width": 5184,
+      "height": 3456,
+      "path": "./assets/photos/business portraits/IMG_2500.jpg",
+      "compressed_path": "./assets/photos/business portraits/IMG_2500.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/business portraits/IMG_2500.placeholder.jpg"
+    },
+    {
+      "width": 3456,
+      "height": 5184,
+      "path": "./assets/photos/business portraits/IMG_2713.jpg",
+      "compressed_path": "./assets/photos/business portraits/IMG_2713.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/business portraits/IMG_2713.placeholder.jpg"
+    },
+    {
+      "width": 5737,
+      "height": 3825,
+      "path": "./assets/photos/business portraits/IMG_5430.jpg",
+      "compressed_path": "./assets/photos/business portraits/IMG_5430.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/business portraits/IMG_5430.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./assets/photos/business portraits/IMG_5441.jpg",
+      "compressed_path": "./assets/photos/business portraits/IMG_5441.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/business portraits/IMG_5441.placeholder.jpg"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/business portraits/IMG_5455.jpg",
+      "compressed_path": "./assets/photos/business portraits/IMG_5455.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/business portraits/IMG_5455.placeholder.jpg"
+    },
+    {
+      "width": 3456,
+      "height": 5184,
+      "path": "./assets/photos/business portraits/IMG_6936.jpg",
+      "compressed_path": "./assets/photos/business portraits/IMG_6936.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/business portraits/IMG_6936.placeholder.jpg"
+    },
+    {
+      "width": 5745,
+      "height": 3999,
+      "path": "./assets/photos/business portraits/IMG_7353-2.jpg",
+      "compressed_path": "./assets/photos/business portraits/IMG_7353-2.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/business portraits/IMG_7353-2.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 4160,
+      "path": "./assets/photos/business portraits/IMG_7396-2.jpg",
+      "compressed_path": "./assets/photos/business portraits/IMG_7396-2.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/business portraits/IMG_7396-2.placeholder.jpg"
+    },
+    {
+      "width": 3090,
+      "height": 3090,
+      "path": "./assets/photos/business portraits/IMG_8845.jpg",
+      "compressed_path": "./assets/photos/business portraits/IMG_8845.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/business portraits/IMG_8845.placeholder.jpg"
+    }
+  ],
   "fun-art": [
     {
       "width": 3958,
@@ -81,142 +309,312 @@
       "placeholder_path": "./assets/photos/fun-art/IMG_8946.placeholder.jpg"
     }
   ],
-  "Travel Photography": [
+  "life style": [
     {
-      "width": 4726,
-      "height": 3315,
-      "path": "./assets/photos/Travel Photography/IMG_2410.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_2410.min.jpg",
+      "width": 5184,
+      "height": 3456,
+      "path": "./assets/photos/life style/IMG_1188.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_1188.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_2410.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_1188.placeholder.jpg"
     },
     {
-      "width": 3648,
-      "height": 5472,
-      "path": "./assets/photos/Travel Photography/IMG_2416.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_2416.min.jpg",
+      "width": 3958,
+      "height": 5937,
+      "path": "./assets/photos/life style/IMG_1784.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_1784.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_2416.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_1784.placeholder.jpg"
     },
     {
-      "width": 3648,
-      "height": 5472,
-      "path": "./assets/photos/Travel Photography/IMG_2420.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_2420.min.jpg",
+      "width": 3365,
+      "height": 5048,
+      "path": "./assets/photos/life style/IMG_2025.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_2025.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_2420.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_2025.placeholder.jpg"
     },
     {
-      "width": 1763,
-      "height": 2740,
-      "path": "./assets/photos/Travel Photography/IMG_2553.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_2553.min.jpg",
+      "width": 3456,
+      "height": 5184,
+      "path": "./assets/photos/life style/IMG_2161.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_2161.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_2553.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_2161.placeholder.jpg"
     },
     {
-      "width": 3648,
-      "height": 5472,
-      "path": "./assets/photos/Travel Photography/IMG_2573.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_2573.min.jpg",
+      "width": 3456,
+      "height": 5184,
+      "path": "./assets/photos/life style/IMG_2576.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_2576.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_2573.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_2576.placeholder.jpg"
     },
     {
-      "width": 3648,
-      "height": 5472,
-      "path": "./assets/photos/Travel Photography/IMG_2751.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_2751.min.jpg",
+      "width": 4662,
+      "height": 3108,
+      "path": "./assets/photos/life style/IMG_3613.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_3613.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_2751.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_3613.placeholder.jpg"
     },
     {
-      "width": 3511,
-      "height": 5266,
-      "path": "./assets/photos/Travel Photography/IMG_2908.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_2908.min.jpg",
+      "width": 4160,
+      "height": 6240,
+      "path": "./assets/photos/life style/IMG_3653.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_3653.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_2908.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_3653.placeholder.jpg"
     },
     {
-      "width": 2000,
-      "height": 1567,
-      "path": "./assets/photos/Travel Photography/IMG_3314.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_3314.min.jpg",
+      "width": 3102,
+      "height": 3102,
+      "path": "./assets/photos/life style/IMG_3719.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_3719.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_3314.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_3719.placeholder.jpg"
     },
     {
-      "width": 2072,
-      "height": 3781,
-      "path": "./assets/photos/Travel Photography/IMG_3341.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_3341.min.jpg",
+      "width": 3496,
+      "height": 5244,
+      "path": "./assets/photos/life style/IMG_6370.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_6370.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_3341.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_6370.placeholder.jpg"
     },
     {
-      "width": 2575,
-      "height": 3991,
-      "path": "./assets/photos/Travel Photography/IMG_3426.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_3426.min.jpg",
+      "width": 3456,
+      "height": 5184,
+      "path": "./assets/photos/life style/IMG_6541.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_6541.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_3426.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_6541.placeholder.jpg"
     },
     {
-      "width": 2510,
-      "height": 3617,
-      "path": "./assets/photos/Travel Photography/IMG_3438-2.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_3438-2.min.jpg",
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/life style/IMG_7078.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_7078.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_3438-2.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_7078.placeholder.jpg"
     },
     {
-      "width": 3648,
-      "height": 5472,
-      "path": "./assets/photos/Travel Photography/IMG_3464.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_3464.min.jpg",
+      "width": 2897,
+      "height": 4345,
+      "path": "./assets/photos/life style/IMG_7528.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_7528.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_3464.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_7528.placeholder.jpg"
     },
     {
-      "width": 3186,
-      "height": 3431,
-      "path": "./assets/photos/Travel Photography/IMG_3470.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_3470.min.jpg",
+      "width": 5184,
+      "height": 3456,
+      "path": "./assets/photos/life style/IMG_7686.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_7686.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_3470.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_7686.placeholder.jpg"
     },
     {
-      "width": 5472,
-      "height": 3648,
-      "path": "./assets/photos/Travel Photography/IMG_3637.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_3637.min.jpg",
+      "width": 3456,
+      "height": 2304,
+      "path": "./assets/photos/life style/IMG_7754.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_7754.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_3637.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_7754.placeholder.jpg"
     },
     {
-      "width": 5472,
-      "height": 3648,
-      "path": "./assets/photos/Travel Photography/IMG_3638.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_3638.min.jpg",
+      "width": 5184,
+      "height": 3456,
+      "path": "./assets/photos/life style/IMG_7867.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_7867.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_3638.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_7867.placeholder.jpg"
     },
     {
-      "width": 3648,
-      "height": 5472,
-      "path": "./assets/photos/Travel Photography/IMG_3799.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_3799.min.jpg",
+      "width": 3829,
+      "height": 5744,
+      "path": "./assets/photos/life style/IMG_8855.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_8855.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_3799.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_8855.placeholder.jpg"
     },
     {
-      "width": 3031,
-      "height": 5472,
-      "path": "./assets/photos/Travel Photography/IMG_4586.jpg",
-      "compressed_path": "./assets/photos/Travel Photography/IMG_4586.min.jpg",
+      "width": 5184,
+      "height": 3456,
+      "path": "./assets/photos/life style/IMG_9223.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_9223.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/Travel Photography/IMG_4586.placeholder.jpg"
+      "placeholder_path": "./assets/photos/life style/IMG_9223.placeholder.jpg"
+    },
+    {
+      "width": 4660,
+      "height": 3107,
+      "path": "./assets/photos/life style/IMG_9771.jpg",
+      "compressed_path": "./assets/photos/life style/IMG_9771.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/life style/IMG_9771.placeholder.jpg"
+    }
+  ],
+  "pets": [
+    {
+      "width": 3335,
+      "height": 3335,
+      "path": "./assets/photos/pets/IMG_0308.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_0308.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_0308.placeholder.jpg"
+    },
+    {
+      "width": 3842,
+      "height": 3597,
+      "path": "./assets/photos/pets/IMG_1119.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_1119.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_1119.placeholder.jpg"
+    },
+    {
+      "width": 4851,
+      "height": 3234,
+      "path": "./assets/photos/pets/IMG_1148.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_1148.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_1148.placeholder.jpg"
+    },
+    {
+      "width": 3316,
+      "height": 3316,
+      "path": "./assets/photos/pets/IMG_1323.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_1323.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_1323.placeholder.jpg"
+    },
+    {
+      "width": 4877,
+      "height": 3251,
+      "path": "./assets/photos/pets/IMG_1336.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_1336.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_1336.placeholder.jpg"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/pets/IMG_2240.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_2240.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_2240.placeholder.jpg"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/pets/IMG_3428.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_3428.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_3428.placeholder.jpg"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/pets/IMG_3718.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_3718.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_3718.placeholder.jpg"
+    },
+    {
+      "width": 5952,
+      "height": 3968,
+      "path": "./assets/photos/pets/IMG_3784.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_3784.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_3784.placeholder.jpg"
+    },
+    {
+      "width": 3671,
+      "height": 4836,
+      "path": "./assets/photos/pets/IMG_3963.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_3963.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_3963.placeholder.jpg"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/pets/IMG_4071.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_4071.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_4071.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 4160,
+      "path": "./assets/photos/pets/IMG_4141.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_4141.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_4141.placeholder.jpg"
+    },
+    {
+      "width": 5184,
+      "height": 3456,
+      "path": "./assets/photos/pets/IMG_4745.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_4745.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_4745.placeholder.jpg"
+    },
+    {
+      "width": 5184,
+      "height": 3456,
+      "path": "./assets/photos/pets/IMG_4996.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_4996.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_4996.placeholder.jpg"
+    },
+    {
+      "width": 3571,
+      "height": 2381,
+      "path": "./assets/photos/pets/IMG_5558.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_5558.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_5558.placeholder.jpg"
+    },
+    {
+      "width": 5184,
+      "height": 3456,
+      "path": "./assets/photos/pets/IMG_5656.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_5656.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_5656.placeholder.jpg"
+    },
+    {
+      "width": 3456,
+      "height": 5184,
+      "path": "./assets/photos/pets/IMG_5668.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_5668.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_5668.placeholder.jpg"
+    },
+    {
+      "width": 5184,
+      "height": 3456,
+      "path": "./assets/photos/pets/IMG_8293.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_8293.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_8293.placeholder.jpg"
+    },
+    {
+      "width": 5184,
+      "height": 3456,
+      "path": "./assets/photos/pets/IMG_8297.jpg",
+      "compressed_path": "./assets/photos/pets/IMG_8297.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/IMG_8297.placeholder.jpg"
+    },
+    {
+      "width": 4942,
+      "height": 3295,
+      "path": "./assets/photos/pets/portrait.jpg",
+      "compressed_path": "./assets/photos/pets/portrait.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/pets/portrait.placeholder.jpg"
     }
   ]
 }

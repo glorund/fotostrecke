@@ -3,84 +3,148 @@
   "title": "main gallery title",
   "images": [
     {
-      "width": 3958,
-      "height": 5937,
-      "path": "./assets/photos/fun-art/IMG_1784.jpg",
-      "compressed_path": "./assets/photos/fun-art/IMG_1784.min.jpg",
+      "width": 4736,
+      "height": 3157,
+      "path": "./assets/photos/art/3.jpg",
+      "compressed_path": "./assets/photos/art/3.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/fun-art/IMG_1784.placeholder.jpg"
+      "placeholder_path": "./assets/photos/art/3.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./assets/photos/art/IMG_0289.jpg",
+      "compressed_path": "./assets/photos/art/IMG_0289.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_0289.placeholder.jpg"
+    },
+    {
+      "width": 3456,
+      "height": 5184,
+      "path": "./assets/photos/art/IMG_0427.jpg",
+      "compressed_path": "./assets/photos/art/IMG_0427.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_0427.placeholder.jpg"
+    },
+    {
+      "width": 3084,
+      "height": 4626,
+      "path": "./assets/photos/art/IMG_1797.jpg",
+      "compressed_path": "./assets/photos/art/IMG_1797.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_1797.placeholder.jpg"
     },
     {
       "width": 3242,
       "height": 2577,
-      "path": "./assets/photos/fun-art/IMG_1838.jpg",
-      "compressed_path": "./assets/photos/fun-art/IMG_1838.min.jpg",
+      "path": "./assets/photos/art/IMG_1838.jpg",
+      "compressed_path": "./assets/photos/art/IMG_1838.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/fun-art/IMG_1838.placeholder.jpg"
+      "placeholder_path": "./assets/photos/art/IMG_1838.placeholder.jpg"
     },
     {
-      "width": 1505,
-      "height": 2257,
-      "path": "./assets/photos/fun-art/IMG_2758.jpg",
-      "compressed_path": "./assets/photos/fun-art/IMG_2758.min.jpg",
+      "width": 3279,
+      "height": 2186,
+      "path": "./assets/photos/art/IMG_2313.jpg",
+      "compressed_path": "./assets/photos/art/IMG_2313.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/fun-art/IMG_2758.placeholder.jpg"
+      "placeholder_path": "./assets/photos/art/IMG_2313.placeholder.jpg"
+    },
+    {
+      "width": 5139,
+      "height": 3426,
+      "path": "./assets/photos/art/IMG_2451.jpg",
+      "compressed_path": "./assets/photos/art/IMG_2451.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_2451.placeholder.jpg"
     },
     {
       "width": 2900,
       "height": 2900,
-      "path": "./assets/photos/fun-art/IMG_2811.jpg",
-      "compressed_path": "./assets/photos/fun-art/IMG_2811.min.jpg",
+      "path": "./assets/photos/art/IMG_2811.jpg",
+      "compressed_path": "./assets/photos/art/IMG_2811.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/fun-art/IMG_2811.placeholder.jpg"
+      "placeholder_path": "./assets/photos/art/IMG_2811.placeholder.jpg"
     },
     {
-      "width": 3720,
-      "height": 3720,
-      "path": "./assets/photos/fun-art/IMG_3120.jpg",
-      "compressed_path": "./assets/photos/fun-art/IMG_3120.min.jpg",
+      "width": 5065,
+      "height": 3377,
+      "path": "./assets/photos/art/IMG_3147.jpg",
+      "compressed_path": "./assets/photos/art/IMG_3147.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/fun-art/IMG_3120.placeholder.jpg"
+      "placeholder_path": "./assets/photos/art/IMG_3147.placeholder.jpg"
     },
     {
       "width": 6240,
       "height": 4160,
-      "path": "./assets/photos/fun-art/IMG_3387.jpg",
-      "compressed_path": "./assets/photos/fun-art/IMG_3387.min.jpg",
+      "path": "./assets/photos/art/IMG_3333.jpg",
+      "compressed_path": "./assets/photos/art/IMG_3333.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/fun-art/IMG_3387.placeholder.jpg"
+      "placeholder_path": "./assets/photos/art/IMG_3333.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./assets/photos/art/IMG_3349.jpg",
+      "compressed_path": "./assets/photos/art/IMG_3349.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_3349.placeholder.jpg"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./assets/photos/art/IMG_4264.jpg",
+      "compressed_path": "./assets/photos/art/IMG_4264.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_4264.placeholder.jpg"
+    },
+    {
+      "width": 5518,
+      "height": 3679,
+      "path": "./assets/photos/art/IMG_4418.jpg",
+      "compressed_path": "./assets/photos/art/IMG_4418.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_4418.placeholder.jpg"
     },
     {
       "width": 3456,
       "height": 5184,
-      "path": "./assets/photos/fun-art/IMG_3472.jpg",
-      "compressed_path": "./assets/photos/fun-art/IMG_3472.min.jpg",
+      "path": "./assets/photos/art/IMG_5891.jpg",
+      "compressed_path": "./assets/photos/art/IMG_5891.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/fun-art/IMG_3472.placeholder.jpg"
+      "placeholder_path": "./assets/photos/art/IMG_5891.placeholder.jpg"
+    },
+    {
+      "width": 2740,
+      "height": 2740,
+      "path": "./assets/photos/art/IMG_6629.jpg",
+      "compressed_path": "./assets/photos/art/IMG_6629.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_6629.placeholder.jpg"
+    },
+    {
+      "width": 3290,
+      "height": 3290,
+      "path": "./assets/photos/art/IMG_8881.jpg",
+      "compressed_path": "./assets/photos/art/IMG_8881.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/art/IMG_8881.placeholder.jpg"
     },
     {
       "width": 3456,
       "height": 5184,
-      "path": "./assets/photos/fun-art/IMG_3734.jpg",
-      "compressed_path": "./assets/photos/fun-art/IMG_3734.min.jpg",
+      "path": "./assets/photos/art/IMG_9692.jpg",
+      "compressed_path": "./assets/photos/art/IMG_9692.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/fun-art/IMG_3734.placeholder.jpg"
+      "placeholder_path": "./assets/photos/art/IMG_9692.placeholder.jpg"
     },
     {
-      "width": 3829,
-      "height": 5744,
-      "path": "./assets/photos/fun-art/IMG_8855.jpg",
-      "compressed_path": "./assets/photos/fun-art/IMG_8855.min.jpg",
+      "width": 4596,
+      "height": 3064,
+      "path": "./assets/photos/art/IMG_9700y.jpg",
+      "compressed_path": "./assets/photos/art/IMG_9700y.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/fun-art/IMG_8855.placeholder.jpg"
-    },
-    {
-      "width": 3995,
-      "height": 5992,
-      "path": "./assets/photos/fun-art/IMG_8946.jpg",
-      "compressed_path": "./assets/photos/fun-art/IMG_8946.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/fun-art/IMG_8946.placeholder.jpg"
+      "placeholder_path": "./assets/photos/art/IMG_9700y.placeholder.jpg"
     }
   ]
 }
