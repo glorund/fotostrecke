@@ -3,8 +3,11 @@
 <div class="top-bar">
   <button mat-button [matMenuTriggerFor]="belowMenu">Gallery</button>
   <mat-menu #belowMenu="matMenu" yPosition="below">
-    <button mat-menu-item [routerLink]="['/gallery/main']">main</button>
-    <button mat-menu-item [routerLink]="['/gallery/travel']">travel</button>
+    <button mat-menu-item [routerLink]="['/gallery/main']">Art</button>
+    <button mat-menu-item [routerLink]="['/gallery/business-portraits']">Business Portraits</button>
+    <button mat-menu-item [routerLink]="['/gallery/fun-art']">fun-art</button>
+    <button mat-menu-item [routerLink]="['/gallery/life-style']">life style</button>
+    <button mat-menu-item [routerLink]="['/gallery/pets']">pets</button>
   </mat-menu>
 
   <button mat-button [routerLink]="['/contacts.jsp']">Contact</button>

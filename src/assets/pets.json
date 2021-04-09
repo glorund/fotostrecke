@@ -1,0 +1,166 @@
+{
+  "decription": "This is the main gallery",
+  "title": "main gallery title",
+  "images": [
+      {
+        "width": 3335,
+        "height": 3335,
+        "path": "./assets/photos/pets/IMG_0308.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_0308.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_0308.placeholder.jpg"
+      },
+      {
+        "width": 3842,
+        "height": 3597,
+        "path": "./assets/photos/pets/IMG_1119.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_1119.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_1119.placeholder.jpg"
+      },
+      {
+        "width": 4851,
+        "height": 3234,
+        "path": "./assets/photos/pets/IMG_1148.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_1148.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_1148.placeholder.jpg"
+      },
+      {
+        "width": 3316,
+        "height": 3316,
+        "path": "./assets/photos/pets/IMG_1323.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_1323.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_1323.placeholder.jpg"
+      },
+      {
+        "width": 4877,
+        "height": 3251,
+        "path": "./assets/photos/pets/IMG_1336.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_1336.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_1336.placeholder.jpg"
+      },
+      {
+        "width": 6240,
+        "height": 4160,
+        "path": "./assets/photos/pets/IMG_2240.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_2240.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_2240.placeholder.jpg"
+      },
+      {
+        "width": 6240,
+        "height": 4160,
+        "path": "./assets/photos/pets/IMG_3428.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_3428.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_3428.placeholder.jpg"
+      },
+      {
+        "width": 6240,
+        "height": 4160,
+        "path": "./assets/photos/pets/IMG_3718.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_3718.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_3718.placeholder.jpg"
+      },
+      {
+        "width": 5952,
+        "height": 3968,
+        "path": "./assets/photos/pets/IMG_3784.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_3784.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_3784.placeholder.jpg"
+      },
+      {
+        "width": 3671,
+        "height": 4836,
+        "path": "./assets/photos/pets/IMG_3963.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_3963.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_3963.placeholder.jpg"
+      },
+      {
+        "width": 6240,
+        "height": 4160,
+        "path": "./assets/photos/pets/IMG_4071.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_4071.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_4071.placeholder.jpg"
+      },
+      {
+        "width": 4160,
+        "height": 4160,
+        "path": "./assets/photos/pets/IMG_4141.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_4141.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_4141.placeholder.jpg"
+      },
+      {
+        "width": 5184,
+        "height": 3456,
+        "path": "./assets/photos/pets/IMG_4745.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_4745.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_4745.placeholder.jpg"
+      },
+      {
+        "width": 5184,
+        "height": 3456,
+        "path": "./assets/photos/pets/IMG_4996.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_4996.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_4996.placeholder.jpg"
+      },
+      {
+        "width": 3571,
+        "height": 2381,
+        "path": "./assets/photos/pets/IMG_5558.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_5558.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_5558.placeholder.jpg"
+      },
+      {
+        "width": 5184,
+        "height": 3456,
+        "path": "./assets/photos/pets/IMG_5656.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_5656.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_5656.placeholder.jpg"
+      },
+      {
+        "width": 3456,
+        "height": 5184,
+        "path": "./assets/photos/pets/IMG_5668.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_5668.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_5668.placeholder.jpg"
+      },
+      {
+        "width": 5184,
+        "height": 3456,
+        "path": "./assets/photos/pets/IMG_8293.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_8293.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_8293.placeholder.jpg"
+      },
+      {
+        "width": 5184,
+        "height": 3456,
+        "path": "./assets/photos/pets/IMG_8297.jpg",
+        "compressed_path": "./assets/photos/pets/IMG_8297.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/IMG_8297.placeholder.jpg"
+      },
+      {
+        "width": 4942,
+        "height": 3295,
+        "path": "./assets/photos/pets/portrait.jpg",
+        "compressed_path": "./assets/photos/pets/portrait.min.jpg",
+        "compressed": true,
+        "placeholder_path": "./assets/photos/pets/portrait.placeholder.jpg"
+      }
+   ]
+}
