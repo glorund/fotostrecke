@@ -23,6 +23,7 @@ import { ContactsComponent } from './contacts/contacts.component';
     MatMenuModule,
     MatButtonModule,
     RouterModule.forRoot([
+      { path: '', redirectTo: '/gallery/main', pathMatch: 'full' },
       { path: 'gallery/:name', component: GalleryComponent },
       { path: 'viewer', component: ViewerComponent },
       { path: 'contacts.jsp', component: ContactsComponent }

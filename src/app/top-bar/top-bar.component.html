@@ -1,10 +1,10 @@
 <h2 class="header">Agnessa Cherednychenko</h2>
 
 <div class="top-bar">
-  <button mat-button [matMenuTriggerFor]="belowMenu">Gallery</button>
+  <button mat-button [routerLink]="['/gallery/main']">Art</button>
+  <button mat-button [routerLink]="['/gallery/business-portraits']">Portrait</button>
+  <button mat-button [matMenuTriggerFor]="belowMenu">More</button>
   <mat-menu #belowMenu="matMenu" yPosition="below">
-    <button mat-menu-item [routerLink]="['/gallery/main']">Art</button>
-    <button mat-menu-item [routerLink]="['/gallery/business-portraits']">Business Portraits</button>
     <button mat-menu-item [routerLink]="['/gallery/life-style']">life style</button>
     <button mat-menu-item [routerLink]="['/gallery/pets']">pets</button>
   </mat-menu>

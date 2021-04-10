@@ -10,7 +10,11 @@ export class ContactsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log('contacts constructed');
+  }
+
+  goToLink(url: string){
+    console.log('url'+url);
+    window.open(url, "_blank");
   }
 
 }
