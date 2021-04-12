@@ -39,7 +39,12 @@ export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
     @ViewChildren('imageElement') imageElements: QueryList<any>;
 
     @HostListener('window:resize', ['$event']) windowResize(event: any): void {
-        this.render();
+        console.log('OnChanges window:resize with name:'+this.providedGalleryName);
+        if (this.providedGalleryName !== undefined) {
+            this.fetchDataAndRender();
+        } else {
+            this.render();
+        }
     }
 
     constructor(public imageService: GalleryService,
@@ -62,6 +67,7 @@ export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
 
     ngOnChanges(changes: SimpleChanges): void {
         // input params changed
+        console.log('OnChanges:'+this.providedGalleryName+' new is:' + changes.providedGalleryName );
         if (changes.providedGalleryName !== undefined) {
             this.fetchDataAndRender();
         } else {
@@ -122,7 +128,6 @@ export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
                     console.log(' images:' + this.images);
                     // twice, single leads to different strange browser behaviour
                     this.render();
-                    // this.render();
                 },
                 err => {
                     if (this.providedMetadataUri) {
@@ -138,24 +143,6 @@ export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
     }
 
     private render(): void {
-        // this.gallery = [];
-
-        // let tempRow = [this.images[0]];
-        // let currentRowIndex = 0;
-        // let i = 0;
-
-        // for (i; i < this.images.length; i++) {
-        //     while (this.images[i + 1] && this.shouldAddCandidate(tempRow, this.images[i + 1])) {
-        //         i++;
-        //     }
-        //     if (this.images[i + 1]) {
-        //         tempRow.pop();
-        //     }
-        //     this.gallery[currentRowIndex++] = tempRow;
-
-        //     tempRow = [this.images[i + 1]];
-        // }
-
         this.scaleGallery();
     }
 
@@ -204,29 +191,6 @@ export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
         // let imageCounter = 0;
         let maximumGalleryImageHeight = 0;
         this.imagesGrid = this.galleryFit(this.images);
-        // this.gallery.slice(this.rowIndex, this.rowIndex + this.rowsPerPage)
-        //     .forEach(imgRow => {
-        //         const originalRowWidth = this.calcOriginalRowWidth(imgRow);
-
-        //         if (imgRow !== this.gallery[this.gallery.length - 1]) {
-        //             const ratio = (this.getGalleryWidth() - (imgRow.length - 1) * this.calcImageMargin()) / originalRowWidth;
-
-        //             imgRow.forEach((img: Photo) => {
-        //                 img.width = img[this.minimalQualityCategory].width * ratio;
-        //                 img.height = img[this.minimalQualityCategory].height * ratio;
-        //                 maximumGalleryImageHeight = Math.max(maximumGalleryImageHeight, img['height']);
-        //                 this.checkForAsyncLoading(img, imageCounter++);
-        //             });
-        //         } else {
-        //             imgRow.forEach((img: any) => {
-        //                 img.width = img[this.minimalQualityCategory]['width'];
-        //                 img.height = img[this.minimalQualityCategory]['height'];
-        //                 maximumGalleryImageHeight = Math.max(maximumGalleryImageHeight, img['height']);
-        //                 this.checkForAsyncLoading(img, imageCounter++);
-        //             });
-        //         }
-        //     });
-
         this.changeDetectorRef.detectChanges();
     }
 
@@ -259,7 +223,7 @@ export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
             Math.ceil((currentViewWidth + this.providedImageSpacing) / (this.maxImageHeight + this.providedImageSpacing));
         const height = this.calculateHeight(currentViewWidth, length);
 
-        console.log(' len ' + length + ' height ' + height);
+        console.log(' len ' + length + ' height ' + height + ' name is:'+ this.providedGalleryName +' images count is ' + images.length);
 
         const gallery: Array<Array<Photo>> = new Array();
         images.forEach(image => {
