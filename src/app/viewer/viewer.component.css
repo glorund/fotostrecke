@@ -9,11 +9,13 @@
     background-color: rgba(0, 0, 0, 0.95);
     font-family: sans-serif;
     z-index: 1031;
+    
 }
 
 .imageContainer {
     text-align: center;
 }
+
 /* .imageContainer .image,
 .imageContainer .preloading-image {
     visibility: hidden; / * RC TODO need to be hidden * /
