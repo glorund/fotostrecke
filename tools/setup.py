@@ -9,6 +9,8 @@ import os
 import sys
 import json
 import re
+# exif reader
+from iptcinfo3 import IPTCInfo
 
 from PIL import Image
 from PIL.ExifTags import TAGS
@@ -64,15 +66,25 @@ def get_images(path):
         has_compressed = False
         p = './' + RELATIVE_PATH + '/' + path + '/' + img
         web_path = './' + WEB_RELATIVE_PATH + '/' + path + '/' + img
-        with open(PHOTO_PATH + '/' + path + '/' + img, 'rb') as f:
+        full_file_name = PHOTO_PATH + '/' + path + '/' + img 
+        with open(full_file_name, 'rb') as f:
             content_type, width, height = getImageInfo(f.read())
         if os.path.isfile(get_min_path(p)):
             has_compressed = True
         print('image {} {} {}'.format(img+' '+content_type, width, height) )
-        exif = get_exif(PHOTO_PATH + '/' + path + '/' + img)
-        labeled = get_labeled_exif(exif)
-        # print(labeled)
-        # print(labeled['ImageDescription'])
+        
+        info = IPTCInfo(full_file_name)
+        keywords = info['keywords']
+        if len(keywords) > 0:
+            print("keywords: ", end ="") 
+            for keyword in keywords:
+                print("%s" % keyword.decode('utf-8'), end=",")
+            print()
+        if 'object name' in info:
+            print("title %s" % info['object name'].decode('utf-8'))
+        if 'caption/abstract' in info:
+            print("caption %s" % info['caption/abstract'].decode('utf-8'))
+
         result.append({
             'width': width,
             'height': height,
