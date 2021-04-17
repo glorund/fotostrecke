@@ -13,7 +13,6 @@ export class ContactsComponent implements OnInit {
   }
 
   goToLink(url: string){
-    console.log('url'+url);
     window.open(url, "_blank");
   }
 
