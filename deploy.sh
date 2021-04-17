@@ -1,2 +1,2 @@
- ng build --prod --base-href "https://glorund.github.io/fotostrecke/"
+ ng build --prod --base-href "https://www.agnesadventure.de/"
  npx angular-cli-ghpages --dir=dist/fotostrecke
