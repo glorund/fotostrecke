@@ -144,6 +144,7 @@ export class ViewerComponent {
 
     imageLoaded(image: any): void {
         image.viewerImageLoaded = true;
+        console.log('image loaded'+image);
     }
 
     /**
@@ -244,33 +245,29 @@ export class ViewerComponent {
     }
 
     private updateQuality(): void {
-      // wait for animation to end
-      setTimeout(() => {
-        this.photos[this.currentIdx].active = true;
-        this.photos.forEach(photo => {
-            this.updatePhotoQuality(photo);
-          }
-          );
-      }, 500);
+        // wait for animation to end
+        setTimeout(() => {
+            this.photos[this.currentIdx].active = true;
+            this.photos.forEach(photo => {
+                this.updatePhotoQuality(photo);
+            }
+            );
+        }, 500);
     }
 
     private updatePhotoQuality(photo: Photo): void {
-    const screenWidth = window.innerWidth - 100;
-    const screenHeight = window.innerHeight - 100;
-    const screenAspect = screenWidth / screenHeight;
-    console.log('screen aspect ' + screenAspect);
+        const screenWidth = window.innerWidth - 100;
+        const screenHeight = window.innerHeight - 100;
+        const screenAspect = screenWidth / screenHeight;
 
-    photo.active = false;
-    const isHight: boolean = photo.aspectRatio < screenAspect;
-    console.log('isHight:' + isHight + ' aspect:' + photo.aspectRatio + 'calulated Height:'
-        + photo.getHeight(screenWidth) + ' path:' + photo.path);
-    if (isHight) {
-        photo.viewHeight = screenHeight;
-        photo.viewWidth = photo.getWidth(screenHeight);
-    } else {
-        photo.viewWidth = screenWidth;
-        photo.viewHeight = photo.getHeight(screenWidth);
-    }
-    console.log(' to ' + photo.viewHeight + 'x' + photo.viewWidth);
+        photo.active = false;
+        const isHight: boolean = photo.aspectRatio < screenAspect;
+        if (isHight) {
+            photo.viewHeight = screenHeight;
+            photo.viewWidth = photo.getWidth(screenHeight);
+        } else {
+            photo.viewWidth = screenWidth;
+            photo.viewHeight = photo.getHeight(screenWidth);
+        }
     }
 }
