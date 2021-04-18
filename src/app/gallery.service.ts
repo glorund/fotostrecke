@@ -37,7 +37,7 @@ export class Photo implements Image {
     this.path = source.path;
     this.compressed_path = source.compressed_path;
     this.compressed = source.compressed;
-    this.placeholder_path = source.compressed_path;
+    this.placeholder_path = source.placeholder_path;
 
     this.aspectRatio = this.width / this.height;
 }

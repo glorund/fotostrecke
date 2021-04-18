@@ -22,7 +22,7 @@
           class="image"
           [@imageTransition]="photos[currentIdx].transition" >
           <img [class.active]="photos[currentIdx].active"
-            [src]="photos[currentIdx].viewerImageLoaded ? photos[currentIdx].path : photos[currentIdx].placeholder_path "
+            [src]="photos[currentIdx].path"
             [width]="photos[currentIdx].viewWidth" [height]="photos[currentIdx].viewHeight"
           />
         </div>
