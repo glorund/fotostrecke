@@ -1,150 +1,248 @@
 {
-  "decription": "This is the main gallery",
-  "title": "main gallery title",
+  "title": "",
+  "description": "",
   "images": [
     {
-      "width": 4736,
-      "height": 3157,
-      "path": "./assets/photos/art/3.jpg",
-      "compressed_path": "./assets/photos/art/3.min.jpg",
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/main/IMG_0333.jpg",
+      "compressed_path": "./assets/photos/main/IMG_0333.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/art/3.placeholder.jpg"
-    },
-    {
-      "width": 4160,
-      "height": 6240,
-      "path": "./assets/photos/art/IMG_0289.jpg",
-      "compressed_path": "./assets/photos/art/IMG_0289.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_0289.placeholder.jpg"
-    },
-    {
-      "width": 3456,
-      "height": 5184,
-      "path": "./assets/photos/art/IMG_0427.jpg",
-      "compressed_path": "./assets/photos/art/IMG_0427.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_0427.placeholder.jpg"
-    },
-    {
-      "width": 3084,
-      "height": 4626,
-      "path": "./assets/photos/art/IMG_1797.jpg",
-      "compressed_path": "./assets/photos/art/IMG_1797.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_1797.placeholder.jpg"
-    },
-    {
-      "width": 3242,
-      "height": 2577,
-      "path": "./assets/photos/art/IMG_1838.jpg",
-      "compressed_path": "./assets/photos/art/IMG_1838.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_1838.placeholder.jpg"
-    },
-    {
-      "width": 3279,
-      "height": 2186,
-      "path": "./assets/photos/art/IMG_2313.jpg",
-      "compressed_path": "./assets/photos/art/IMG_2313.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_2313.placeholder.jpg"
-    },
-    {
-      "width": 5139,
-      "height": 3426,
-      "path": "./assets/photos/art/IMG_2451.jpg",
-      "compressed_path": "./assets/photos/art/IMG_2451.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_2451.placeholder.jpg"
-    },
-    {
-      "width": 2900,
-      "height": 2900,
-      "path": "./assets/photos/art/IMG_2811.jpg",
-      "compressed_path": "./assets/photos/art/IMG_2811.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_2811.placeholder.jpg"
-    },
-    {
-      "width": 5065,
-      "height": 3377,
-      "path": "./assets/photos/art/IMG_3147.jpg",
-      "compressed_path": "./assets/photos/art/IMG_3147.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_3147.placeholder.jpg"
+      "placeholder_path": "./assets/photos/main/IMG_0333.placeholder.jpg",
+      "title": "Woman in red with a fan",
+      "caption": "A Japanese girl in a red kimono stands calmly with a fan in her hands on tree and snow background.",
+      "keywords": "Japanese,art,kimono,model,outdoow,portrait,red,seasons,snow,stylish,tree,white,winter,woman,"
     },
     {
       "width": 6240,
       "height": 4160,
-      "path": "./assets/photos/art/IMG_3333.jpg",
-      "compressed_path": "./assets/photos/art/IMG_3333.min.jpg",
+      "path": "./assets/photos/main/IMG_0350.jpg",
+      "compressed_path": "./assets/photos/main/IMG_0350.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_3333.placeholder.jpg"
+      "placeholder_path": "./assets/photos/main/IMG_0350.placeholder.jpg",
+      "title": "Grunge fear",
+      "caption": "A woman in a theatrical clothes sits in an abandoned place with her hands around her face.",
+      "keywords": "Japanese,abandoned,black,clothes,emotions,face,green,grunge,hands,style,"
+    },
+    {
+      "width": 3242,
+      "height": 2577,
+      "path": "./assets/photos/main/IMG_0360.jpg",
+      "compressed_path": "./assets/photos/main/IMG_0360.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_0360.placeholder.jpg",
+      "title": "Half face i a forest",
+      "caption": "A half face of a model on dark green forest background with snow on branches.",
+      "keywords": "black,calm,closeup,cold,eye,forest,green,hair,model,portrait,seasons,serenity,snow,tranquil,winter,"
     },
     {
       "width": 4160,
       "height": 6240,
-      "path": "./assets/photos/art/IMG_3349.jpg",
-      "compressed_path": "./assets/photos/art/IMG_3349.min.jpg",
+      "path": "./assets/photos/main/IMG_0380.jpg",
+      "compressed_path": "./assets/photos/main/IMG_0380.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_3349.placeholder.jpg"
-    },
-    {
-      "width": 4160,
-      "height": 6240,
-      "path": "./assets/photos/art/IMG_4264.jpg",
-      "compressed_path": "./assets/photos/art/IMG_4264.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_4264.placeholder.jpg"
-    },
-    {
-      "width": 5518,
-      "height": 3679,
-      "path": "./assets/photos/art/IMG_4418.jpg",
-      "compressed_path": "./assets/photos/art/IMG_4418.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_4418.placeholder.jpg"
+      "placeholder_path": "./assets/photos/main/IMG_0380.placeholder.jpg",
+      "title": "Greenery prayer",
+      "caption": "A woman in a dark green clothes holds a book with greenery in her hands and looks down.",
+      "keywords": "art,book,dark,gothic,green,greenery,hands,look,pray,pretend,woman,"
     },
     {
       "width": 3456,
       "height": 5184,
-      "path": "./assets/photos/art/IMG_5891.jpg",
-      "compressed_path": "./assets/photos/art/IMG_5891.min.jpg",
+      "path": "./assets/photos/main/IMG_0400.jpg",
+      "compressed_path": "./assets/photos/main/IMG_0400.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_5891.placeholder.jpg"
+      "placeholder_path": "./assets/photos/main/IMG_0400.placeholder.jpg",
+      "title": "Samurai style",
+      "caption": "A Japanese woman in a long kimono stands backwards under cherry blossom.",
+      "keywords": "Japanese,blossom,garden,kimono,outdoor,sakura,woman,"
+    },
+    {
+      "width": 4987,
+      "height": 3325,
+      "path": "./assets/photos/main/IMG_0600.jpg",
+      "compressed_path": "./assets/photos/main/IMG_0600.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_0600.placeholder.jpg",
+      "title": "Three crazy girls",
+      "caption": "Three women pretend to be crazy and show wild emotions.",
+      "keywords": "crazy,emotions,girls,indoor,portrait,scenery,"
+    },
+    {
+      "width": 3279,
+      "height": 2186,
+      "path": "./assets/photos/main/IMG_2313.jpg",
+      "compressed_path": "./assets/photos/main/IMG_2313.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_2313.placeholder.jpg",
+      "title": "Emotion on snow",
+      "caption": "A model with long black hair lays on snow with her hands close to her face and shows strong emotion.",
+      "keywords": "black,emotions,eyes,fingers,hair,hands,long,look,seasons,snow,winter,woman,"
+    },
+    {
+      "width": 3456,
+      "height": 5184,
+      "path": "./assets/photos/main/IMG_2350.jpg",
+      "compressed_path": "./assets/photos/main/IMG_2350.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_2350.placeholder.jpg",
+      "title": "A girl in a forest",
+      "caption": "A blond girl with log hair holds tulips and sits backwards in a forest in a sunny day.",
+      "keywords": "blond,flowers,forest,girl,outdoor,"
+    },
+    {
+      "width": 3750,
+      "height": 2500,
+      "path": "./assets/photos/main/IMG_2380.jpg",
+      "compressed_path": "./assets/photos/main/IMG_2380.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_2380.placeholder.jpg",
+      "title": "Sakura dancer",
+      "caption": "A Japanese woman dances with fans in a blooming garden of sakura or cherry trees.",
+      "keywords": "Japanese,bloom,blossom,cherry,dance,dancer,fan,flowers,garden,sakura,tree,"
+    },
+    {
+      "width": 2900,
+      "height": 2900,
+      "path": "./assets/photos/main/IMG_2400.jpg",
+      "compressed_path": "./assets/photos/main/IMG_2400.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_2400.placeholder.jpg",
+      "title": "Fire dancer",
+      "caption": "A woman in a long red dress dances with a rainbow scarf in a forest on snow background.",
+      "keywords": "art,bright,dance,dancer,fire,forest,outdoor,rainbow,red,scarf,seasons,snow,square,winter,woman,"
+    },
+    {
+      "width": 5139,
+      "height": 3426,
+      "path": "./assets/photos/main/IMG_2451.jpg",
+      "compressed_path": "./assets/photos/main/IMG_2451.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_2451.placeholder.jpg",
+      "title": "A woman with pipes",
+      "caption": "A woman with long hair, in black clothes stands among pipes and  graffitys with her arm up and looks on camera.",
+      "keywords": "arms,black,hair,industrial,look,portrait,urban,woman,"
+    },
+    {
+      "width": 3084,
+      "height": 4626,
+      "path": "./assets/photos/main/IMG_4000.jpg",
+      "compressed_path": "./assets/photos/main/IMG_4000.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_4000.placeholder.jpg",
+      "title": "Pearls in black arms",
+      "caption": "Pearls in hands of a black-skinned woman in grey clothes.",
+      "keywords": "black,closeup,contrast,detail,grey,pearl,woman,"
+    },
+    {
+      "width": 4160,
+      "height": 4160,
+      "path": "./assets/photos/main/IMG_5019.jpg",
+      "compressed_path": "./assets/photos/main/IMG_5019.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_5019.placeholder.jpg",
+      "title": "Listen to the radio",
+      "caption": "A Japanese woman in a pink kimono listens to the old-fashioned device.",
+      "keywords": "Japanese,abandoned,black,face,hair,hand,old,vintage,woman,"
     },
     {
       "width": 2740,
       "height": 2740,
-      "path": "./assets/photos/art/IMG_6629.jpg",
-      "compressed_path": "./assets/photos/art/IMG_6629.min.jpg",
+      "path": "./assets/photos/main/IMG_5090.jpg",
+      "compressed_path": "./assets/photos/main/IMG_5090.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_6629.placeholder.jpg"
+      "placeholder_path": "./assets/photos/main/IMG_5090.placeholder.jpg",
+      "title": "Woman with umbrella",
+      "caption": "A Japanese model in black clothes stands on a bridge and sky background with an umbrella up in her arm.",
+      "keywords": "Japanese,arms,art,black,bridge,outdoor,sky,umbrella,woman,"
     },
     {
-      "width": 3290,
-      "height": 3290,
-      "path": "./assets/photos/art/IMG_8881.jpg",
-      "compressed_path": "./assets/photos/art/IMG_8881.min.jpg",
+      "width": 5184,
+      "height": 3456,
+      "path": "./assets/photos/main/IMG_5100.jpg",
+      "compressed_path": "./assets/photos/main/IMG_5100.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_8881.placeholder.jpg"
+      "placeholder_path": "./assets/photos/main/IMG_5100.placeholder.jpg",
+      "title": "A women with arms up",
+      "caption": "A woman in black clothes, on grey background holds her arms up and looks on camera.",
+      "keywords": "arms,black,grey,indoor,look,woman,"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./assets/photos/main/IMG_6650.jpg",
+      "compressed_path": "./assets/photos/main/IMG_6650.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_6650.placeholder.jpg",
+      "title": "Red kimono between trees",
+      "caption": "A Japanese girl in a red kimono stands with a fan in her hand between trees and snow and looks on camera.",
+      "keywords": "Japanese,art,black,branches,fan,girl,hand,kimono,long,look,model,red,seasons,snow,tre,white,winter,woman,"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./assets/photos/main/IMG_6700.jpg",
+      "compressed_path": "./assets/photos/main/IMG_6700.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_6700.placeholder.jpg",
+      "title": "Hair up model",
+      "caption": "A woman with long black hair flying up shows fear.",
+      "keywords": "black,emotions,face,hair,hands,horror,long,model,nightmare,woman,"
     },
     {
       "width": 3456,
       "height": 5184,
-      "path": "./assets/photos/art/IMG_9692.jpg",
-      "compressed_path": "./assets/photos/art/IMG_9692.min.jpg",
+      "path": "./assets/photos/main/IMG_8679.jpg",
+      "compressed_path": "./assets/photos/main/IMG_8679.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_9692.placeholder.jpg"
+      "placeholder_path": "./assets/photos/main/IMG_8679.placeholder.jpg",
+      "title": "Flower petals in hands",
+      "caption": "A macro view on red poppy flower petals in hands of a woman on dark background.",
+      "keywords": "Macro,black,closeup,flower,grass,hands,outdoor,petals,plant,red,"
+    },
+    {
+      "width": 5518,
+      "height": 3679,
+      "path": "./assets/photos/main/IMG_8700.jpg",
+      "compressed_path": "./assets/photos/main/IMG_8700.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_8700.placeholder.jpg",
+      "title": "Violet snake",
+      "caption": "A woman in a violet scarf looks like a snake in a forest.",
+      "keywords": "bright,forest,hands,look,makeup,model,outdoor,scarf,style,violet,woman,"
+    },
+    {
+      "width": 3290,
+      "height": 3290,
+      "path": "./assets/photos/main/IMG_8881.jpg",
+      "compressed_path": "./assets/photos/main/IMG_8881.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_8881.placeholder.jpg",
+      "title": "A woman in lilac",
+      "caption": "A portrait of a woman in a large bush of blooming lilac.",
+      "keywords": "art,flowers,gorgeous,lilac,outdoor,portrait,woman,"
+    },
+    {
+      "width": 3078,
+      "height": 3078,
+      "path": "./assets/photos/main/IMG_9074.jpg",
+      "compressed_path": "./assets/photos/main/IMG_9074.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/IMG_9074.placeholder.jpg",
+      "title": "hands with glass of lilac",
+      "caption": "A macro vire on hands holding a glass with lilac flowers pouring in.",
+      "keywords": "Macro,art,bloom,closeup,detail,flowers,fragment,hands,lilac,outdoor,"
     },
     {
       "width": 4596,
       "height": 3064,
-      "path": "./assets/photos/art/IMG_9700y.jpg",
-      "compressed_path": "./assets/photos/art/IMG_9700y.min.jpg",
+      "path": "./assets/photos/main/IMG_9700y.jpg",
+      "compressed_path": "./assets/photos/main/IMG_9700y.min.jpg",
       "compressed": true,
-      "placeholder_path": "./assets/photos/art/IMG_9700y.placeholder.jpg"
+      "placeholder_path": "./assets/photos/main/IMG_9700y.placeholder.jpg",
+      "title": "Princess in a castle",
+      "caption": "A girl in long orange clothes stands with her arms up in an archway on bright sun.",
+      "keywords": "arms,branches,castle,girl,long,medieval,pretend,princess,scenery,sun,woman,"
     }
   ]
 }

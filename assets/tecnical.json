@@ -1,0 +1,17 @@
+{
+  "title": "",
+  "description": "",
+  "images": [
+    {
+      "width": 3648,
+      "height": 5472,
+      "path": "./assets/photos/tecnical/IMG_6054.jpg",
+      "compressed_path": "./assets/photos/tecnical/IMG_6054.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/tecnical/IMG_6054.placeholder.jpg",
+      "title": "trees in a park",
+      "caption": "caption for tree",
+      "keywords": "outdoor,park,tree,"
+    }
+  ]
+}
