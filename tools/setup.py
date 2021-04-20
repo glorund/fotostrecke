@@ -20,6 +20,7 @@ RELATIVE_PATH = 'src/assets/photos'
 WEB_RELATIVE_PATH = 'assets/photos'
 PHOTO_PATH = PATH + RELATIVE_PATH
 OUTPUT_FILE = PATH + 'src/assets/generated.json'
+OUTPUT_FILE_PREFIX = PATH + 'src/assets/'
 
 
 def is_original(path):
@@ -64,6 +65,9 @@ def get_images(path):
         width, height = 0, 0
         content_type = ""
         has_compressed = False
+        title = ""
+        caption = ""
+        keywords = ""
         p = './' + RELATIVE_PATH + '/' + path + '/' + img
         web_path = './' + WEB_RELATIVE_PATH + '/' + path + '/' + img
         full_file_name = PHOTO_PATH + '/' + path + '/' + img 
@@ -74,27 +78,35 @@ def get_images(path):
         print('image {} {} {}'.format(img+' '+content_type, width, height) )
         
         info = IPTCInfo(full_file_name)
-        keywords = info['keywords']
-        if len(keywords) > 0:
+        keywords_decoded = info['keywords']
+        if len(keywords_decoded) > 0:
             print("keywords: ", end ="") 
-            for keyword in keywords:
+            for keyword in keywords_decoded:
+                keywords += keyword.decode('utf-8') + ","
                 print("%s" % keyword.decode('utf-8'), end=",")
             print()
         if 'object name' in info:
             print("title %s" % info['object name'].decode('utf-8'))
+            title=info['object name'].decode('utf-8')
         if 'caption/abstract' in info:
             print("caption %s" % info['caption/abstract'].decode('utf-8'))
-
+            caption = info['caption/abstract'].decode('utf-8')
         result.append({
             'width': width,
             'height': height,
             'path': web_path,
             'compressed_path': get_min_path(web_path),
             'compressed': has_compressed,
-            'placeholder_path': get_placeholder_path(web_path)
+            'placeholder_path': get_placeholder_path(web_path),
+            'title': title,
+            'caption': caption,
+            'keywords': keywords
         })
     return result
 
+def write_config_file(filename,config):
+    with open(OUTPUT_FILE_PREFIX + filename + ".json", 'w') as f:
+        f.write(json.dumps(config, indent=2, separators=(',', ': ')))
 
 def write_config(config):
     with open(OUTPUT_FILE, 'w') as f:
@@ -104,20 +116,27 @@ def write_config(config):
 def run():
     print('Starting to collect all albums within the /photos directory...')
     config = {}
+    config_item = {}
     dirs = get_directories()
     print('Found {length} directories'.format(length=len(dirs)))
     for i, path in enumerate(dirs):
         print(str(i+1) + ': Processing photos for the album "{album}"'.format(
             album=path))
         config[path] = get_images(path)
+        config_item["title"] = ""
+        config_item["description"] = ""
+        config_item["images"] = get_images(path)
+
 
         print('   Done processing {l} photos for "{album}"\n'.format(
-            l=len(config[path]),
+            l=len(config_item["images"]),
             album=path))
+        write_config_file(path,config_item)
+
 
     print('Done processing all {length} albums'.format(length=len(dirs)))
     print('Writing files to {path} now...'.format(path=PATH + 'config.json'))
-    write_config(config)
+    #write_config(config)
     print('''Done writing! You may now safely close this window :)''')
     return 0
 
