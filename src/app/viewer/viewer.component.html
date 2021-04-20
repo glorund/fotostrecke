@@ -24,11 +24,12 @@
           <img [class.active]="photos[currentIdx].active"
             [src]="photos[currentIdx].path"
             [width]="photos[currentIdx].viewWidth" [height]="photos[currentIdx].viewHeight"
+            [alt]="photos[currentIdx].title"
           />
         </div>
       </div>
       <img *ngFor='let img of photos; let j = index'
           class="preloading-image"
           (load)="imageLoaded(img)"
-          src="{{ img.path }}"/>
+          src="{{ img.path }}" alt="{{ img.title }}"/>
 </div>

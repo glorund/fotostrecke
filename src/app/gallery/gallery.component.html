@@ -10,6 +10,7 @@
                  [style.height.px]="img.height"
                  (click)="openImageViewer(img)"
                  [src]="img.compressed_path"
+                 [alt]="img.title"
                  [style.background]="img.dominantColor"
                  [style.margin-right.px]="calcImageMargin()"/>
         </div>

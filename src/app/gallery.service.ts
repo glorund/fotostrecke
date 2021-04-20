@@ -9,6 +9,7 @@ export interface Image {
   compressed_path: string;
   compressed: boolean;
   placeholder_path: string;
+  title: string;
 }
 
 export class Photo implements Image {
@@ -18,6 +19,7 @@ export class Photo implements Image {
   compressed_path: string;
   compressed: boolean;
   placeholder_path: string;
+  title: string;
 
   viewWidth: number;
   viewHeight: number;
@@ -38,6 +40,7 @@ export class Photo implements Image {
     this.compressed_path = source.compressed_path;
     this.compressed = source.compressed;
     this.placeholder_path = source.placeholder_path;
+    this.title = source.title;
 
     this.aspectRatio = this.width / this.height;
 }
