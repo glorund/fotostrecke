@@ -19,5 +19,6 @@ python $SCRIPT_PATH/tools/duplicate.py placeholder
 magick.exe mogrify -resize 32x $SCRIPT_PATH/src/assets/photos/**/*.placeholder.jpg #&>/dev/null
 
 # TODO add watermark
+#/d/Program\ Files/ImageMagick-7.0.11-Q16-HDRI/composite.exe  -gravity Center ../../../sources/watermark.png source.jpeg output.jpeg
 
 python $SCRIPT_PATH/tools/setup.py
