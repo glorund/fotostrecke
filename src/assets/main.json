@@ -1,6 +1,6 @@
 {
-  "title": "",
-  "description": "",
+  "title": "business gallery.",
+  "description": "business gallery description.",
   "images": [
     {
       "width": 6240,
@@ -243,6 +243,28 @@
       "title": "Princess in a castle",
       "caption": "A girl in long orange clothes stands with her arms up in an archway on bright sun.",
       "keywords": "arms,branches,castle,girl,long,medieval,pretend,princess,scenery,sun,woman,"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/main/output.jpeg",
+      "compressed_path": "./assets/photos/main/output.min.jpeg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/output.placeholder.jpeg",
+      "title": "Woman in red with a fan",
+      "caption": "A Japanese girl in a red kimono stands calmly with a fan in her hands on tree and snow background.",
+      "keywords": "Japanese,art,kimono,model,outdoow,portrait,red,seasons,snow,stylish,tree,white,winter,woman,"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/main/source.jpeg",
+      "compressed_path": "./assets/photos/main/source.min.jpeg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/main/source.placeholder.jpeg",
+      "title": "Woman in red with a fan",
+      "caption": "A Japanese girl in a red kimono stands calmly with a fan in her hands on tree and snow background.",
+      "keywords": "Japanese,art,kimono,model,outdoow,portrait,red,seasons,snow,stylish,tree,white,winter,woman,"
     }
   ]
 }

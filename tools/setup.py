@@ -119,14 +119,25 @@ def run():
     config_item = {}
     dirs = get_directories()
     print('Found {length} directories'.format(length=len(dirs)))
-    for i, path in enumerate(dirs):
-        print(str(i+1) + ': Processing photos for the album "{album}"'.format(
-            album=path))
-        config[path] = get_images(path)
-        config_item["title"] = ""
-        config_item["description"] = ""
-        config_item["images"] = get_images(path)
 
+    for i, path in enumerate(dirs):
+        print(str(i+1) + ': Processing photos for the album "{album}"'.format(album=path))
+        
+        try:
+            f=open(PHOTO_PATH + '/' + path + '/' + 'directory.info','r',encoding='utf8')    
+            title = f.readline()
+            description = f.read()
+            f.close()
+            title = title.replace("\n","")
+            print('directory.info found')
+        except FileNotFoundError:
+            title = ""
+            description = ""
+            print("Files couldn't be opened!")
+        config[path] = get_images(path)
+        config_item["title"] = title
+        config_item["description"] = description
+        config_item["images"] = get_images(path)
 
         print('   Done processing {l} photos for "{album}"\n'.format(
             l=len(config_item["images"]),
