@@ -113,6 +113,7 @@ export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
         this.http.get(this.imageDataCompletePath)
             .subscribe(
                 (gallery: Gallery) => {
+                    this.galleryIs = gallery; 
                     this.images = [];
                     gallery.images.forEach(image => {
                         this.images.push(new Photo(image));
@@ -126,7 +127,6 @@ export class GalleryComponent implements OnInit, OnDestroy, OnChanges {
                         image.srcAfterFocus = '';
                     });
                     console.log(' images:' + this.images);
-                    // twice, single leads to different strange browser behaviour
                     this.render();
                 },
                 err => {
