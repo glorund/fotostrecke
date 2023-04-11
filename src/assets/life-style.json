@@ -3,28 +3,6 @@
   "description": "",
   "images": [
     {
-      "width": 3829,
-      "height": 5744,
-      "path": "./assets/photos/life-style/IMG_8855.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_8855.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_8855.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 5184,
-      "height": 3456,
-      "path": "./assets/photos/life-style/IMG_9223.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_9223.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_9223.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
       "width": 3365,
       "height": 5048,
       "path": "./assets/photos/life-style/IMG_2025.jpg",
@@ -42,39 +20,6 @@
       "compressed_path": "./assets/photos/life-style/IMG_3613.min.jpg",
       "compressed": true,
       "placeholder_path": "./assets/photos/life-style/IMG_3613.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3365,
-      "height": 5048,
-      "path": "./assets/photos/life-style/IMG_2025.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_2025.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_2025.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3456,
-      "height": 5184,
-      "path": "./assets/photos/life-style/IMG_2576.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_2576.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_2576.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 5184,
-      "height": 3456,
-      "path": "./assets/photos/life-style/IMG_7867.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_7867.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_7867.jpg.placeholder.jpg",
       "title": "",
       "caption": "",
       "keywords": ""
@@ -108,61 +53,6 @@
       "compressed_path": "./assets/photos/life-style/IMG_6541.min.jpg",
       "compressed": true,
       "placeholder_path": "./assets/photos/life-style/IMG_6541.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3102,
-      "height": 3102,
-      "path": "./assets/photos/life-style/IMG_3719.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_3719.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_3719.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 4660,
-      "height": 3107,
-      "path": "./assets/photos/life-style/IMG_9771.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_9771.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_9771.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3496,
-      "height": 5244,
-      "path": "./assets/photos/life-style/IMG_6370.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_6370.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_6370.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3958,
-      "height": 5937,
-      "path": "./assets/photos/life-style/IMG_1784.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_1784.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_1784.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 5184,
-      "height": 3456,
-      "path": "./assets/photos/life-style/IMG_7686.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_7686.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_7686.jpg.placeholder.jpg",
       "title": "",
       "caption": "",
       "keywords": ""
@@ -212,67 +102,12 @@
       "keywords": ""
     },
     {
-      "width": 2897,
-      "height": 4345,
-      "path": "./assets/photos/life-style/IMG_7528.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_7528.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_7528.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 5184,
-      "height": 3456,
-      "path": "./assets/photos/life-style/IMG_1188.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_1188.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_1188.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3456,
-      "height": 2304,
-      "path": "./assets/photos/life-style/IMG_7754.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_7754.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_7754.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3456,
-      "height": 5184,
-      "path": "./assets/photos/life-style/IMG_6541.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_6541.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_6541.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
       "width": 3102,
       "height": 3102,
       "path": "./assets/photos/life-style/IMG_3719.jpg",
       "compressed_path": "./assets/photos/life-style/IMG_3719.min.jpg",
       "compressed": true,
       "placeholder_path": "./assets/photos/life-style/IMG_3719.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 6240,
-      "height": 4160,
-      "path": "./assets/photos/life-style/IMG_7078.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_7078.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_7078.jpg.placeholder.jpg",
       "title": "",
       "caption": "",
       "keywords": ""
@@ -311,28 +146,6 @@
       "keywords": ""
     },
     {
-      "width": 4662,
-      "height": 3108,
-      "path": "./assets/photos/life-style/IMG_3613.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_3613.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_3613.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3456,
-      "height": 5184,
-      "path": "./assets/photos/life-style/IMG_2161.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_2161.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_2161.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
       "width": 3958,
       "height": 5937,
       "path": "./assets/photos/life-style/IMG_1784.jpg",
@@ -350,17 +163,6 @@
       "compressed_path": "./assets/photos/life-style/IMG_9223.min.jpg",
       "compressed": true,
       "placeholder_path": "./assets/photos/life-style/IMG_9223.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 4160,
-      "height": 6240,
-      "path": "./assets/photos/life-style/IMG_3653.jpg.jpg",
-      "compressed_path": "./assets/photos/life-style/IMG_3653.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/life-style/IMG_3653.jpg.placeholder.jpg",
       "title": "",
       "caption": "",
       "keywords": ""

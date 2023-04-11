@@ -8,7 +8,7 @@ PHOTO_PATH = os.path.dirname(__file__) + '/../src/assets/photos/'
 
 def is_image_path(path):
     return re.search(r'\.(jpe?g|png)$', path)
-cd
+
 
 def get_min_path(path):
     return re.sub(r'\.(png|jpe?g)$', '.min.\g<1>', path)

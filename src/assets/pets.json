@@ -14,17 +14,6 @@
       "keywords": ""
     },
     {
-      "width": 5184,
-      "height": 3456,
-      "path": "./assets/photos/pets/IMG_8293.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_8293.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_8293.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
       "width": 4851,
       "height": 3234,
       "path": "./assets/photos/pets/IMG_1148.jpg",
@@ -47,28 +36,6 @@
       "keywords": ""
     },
     {
-      "width": 4160,
-      "height": 4160,
-      "path": "./assets/photos/pets/IMG_4141.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_4141.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_4141.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 5184,
-      "height": 3456,
-      "path": "./assets/photos/pets/IMG_4745.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_4745.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_4745.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
       "width": 3842,
       "height": 3597,
       "path": "./assets/photos/pets/IMG_1119.jpg",
@@ -78,39 +45,6 @@
       "title": "",
       "caption": "Doggy",
       "keywords": "dog,kiss,human,"
-    },
-    {
-      "width": 4942,
-      "height": 3295,
-      "path": "./assets/photos/pets/portrait.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/portrait.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/portrait.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3335,
-      "height": 3335,
-      "path": "./assets/photos/pets/IMG_0308.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_0308.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_0308.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 4851,
-      "height": 3234,
-      "path": "./assets/photos/pets/IMG_1148.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_1148.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_1148.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
     },
     {
       "width": 5184,
@@ -146,17 +80,6 @@
       "keywords": ""
     },
     {
-      "width": 6240,
-      "height": 4160,
-      "path": "./assets/photos/pets/IMG_3428.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_3428.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_3428.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
       "width": 3456,
       "height": 5184,
       "path": "./assets/photos/pets/IMG_5668.jpg",
@@ -174,17 +97,6 @@
       "compressed_path": "./assets/photos/pets/IMG_3718.min.jpg",
       "compressed": true,
       "placeholder_path": "./assets/photos/pets/IMG_3718.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3571,
-      "height": 2381,
-      "path": "./assets/photos/pets/IMG_5558.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_5558.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_5558.jpg.placeholder.jpg",
       "title": "",
       "caption": "",
       "keywords": ""
@@ -214,43 +126,10 @@
     {
       "width": 6240,
       "height": 4160,
-      "path": "./assets/photos/pets/IMG_4071.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_4071.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_4071.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 6240,
-      "height": 4160,
       "path": "./assets/photos/pets/IMG_3428.jpg",
       "compressed_path": "./assets/photos/pets/IMG_3428.min.jpg",
       "compressed": true,
       "placeholder_path": "./assets/photos/pets/IMG_3428.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3316,
-      "height": 3316,
-      "path": "./assets/photos/pets/IMG_1323.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_1323.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_1323.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 6240,
-      "height": 4160,
-      "path": "./assets/photos/pets/IMG_3718.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_3718.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_3718.jpg.placeholder.jpg",
       "title": "",
       "caption": "",
       "keywords": ""
@@ -267,45 +146,12 @@
       "keywords": ""
     },
     {
-      "width": 6240,
-      "height": 4160,
-      "path": "./assets/photos/pets/IMG_2240.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_2240.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_2240.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
       "width": 3335,
       "height": 3335,
       "path": "./assets/photos/pets/IMG_0308.jpg",
       "compressed_path": "./assets/photos/pets/IMG_0308.min.jpg",
       "compressed": true,
       "placeholder_path": "./assets/photos/pets/IMG_0308.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 4877,
-      "height": 3251,
-      "path": "./assets/photos/pets/IMG_1336.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_1336.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_1336.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3671,
-      "height": 4836,
-      "path": "./assets/photos/pets/IMG_3963.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_3963.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_3963.jpg.placeholder.jpg",
       "title": "",
       "caption": "",
       "keywords": ""
@@ -328,28 +174,6 @@
       "compressed_path": "./assets/photos/pets/IMG_4071.min.jpg",
       "compressed": true,
       "placeholder_path": "./assets/photos/pets/IMG_4071.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 5184,
-      "height": 3456,
-      "path": "./assets/photos/pets/IMG_8297.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_8297.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_8297.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3456,
-      "height": 5184,
-      "path": "./assets/photos/pets/IMG_5668.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_5668.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_5668.jpg.placeholder.jpg",
       "title": "",
       "caption": "",
       "keywords": ""
@@ -383,50 +207,6 @@
       "compressed_path": "./assets/photos/pets/IMG_4996.min.jpg",
       "compressed": true,
       "placeholder_path": "./assets/photos/pets/IMG_4996.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 5184,
-      "height": 3456,
-      "path": "./assets/photos/pets/IMG_5656.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_5656.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_5656.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 5184,
-      "height": 3456,
-      "path": "./assets/photos/pets/IMG_4996.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_4996.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_4996.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "",
-      "keywords": ""
-    },
-    {
-      "width": 3842,
-      "height": 3597,
-      "path": "./assets/photos/pets/IMG_1119.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_1119.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_1119.jpg.placeholder.jpg",
-      "title": "",
-      "caption": "Doggy",
-      "keywords": "dog,kiss,human,"
-    },
-    {
-      "width": 5952,
-      "height": 3968,
-      "path": "./assets/photos/pets/IMG_3784.jpg.jpg",
-      "compressed_path": "./assets/photos/pets/IMG_3784.jpg.min.jpg",
-      "compressed": true,
-      "placeholder_path": "./assets/photos/pets/IMG_3784.jpg.placeholder.jpg",
       "title": "",
       "caption": "",
       "keywords": ""
