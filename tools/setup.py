@@ -85,10 +85,13 @@ def get_images(path):
                 keywords += keyword.decode('utf-8') + ","
                 print("%s" % keyword.decode('utf-8'), end=",")
             print()
-        if 'object name' in info:
+        print("title detaction {}".format(info['object name']))
+        if ( info['object name'] is not None ):
+            print("found")
             print("title %s" % info['object name'].decode('utf-8'))
             title=info['object name'].decode('utf-8')
-        if 'caption/abstract' in info:
+        print("caption")
+        if (info['caption/abstract'] is not None ):
             print("caption %s" % info['caption/abstract'].decode('utf-8'))
             caption = info['caption/abstract'].decode('utf-8')
         result.append({
@@ -118,6 +121,7 @@ def run():
     config = {}
     config_item = {}
     dirs = get_directories()
+    albums = []
     print('Found {length} directories'.format(length=len(dirs)))
 
     for i, path in enumerate(dirs):
@@ -139,14 +143,15 @@ def run():
         config_item["description"] = description
         config_item["images"] = get_images(path)
 
+        albums.append(path)
         print('   Done processing {l} photos for "{album}"\n'.format(
             l=len(config_item["images"]),
             album=path))
         write_config_file(path,config_item)
 
 
-    print('Done processing all {length} albums'.format(length=len(dirs)))
-    print('Writing files to {path} now...'.format(path=PATH + 'config.json'))
+    print('Done processing all {length} albums {content} '.format(length=len(dirs), content=albums))
+    #print('Writing files to {path} now...'.format(path=PATH + 'config.json'))
     #write_config(config)
     print('''Done writing! You may now safely close this window :)''')
     return 0

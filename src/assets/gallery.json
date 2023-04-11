@@ -1,0 +1,94 @@
+{
+  "title": "",
+  "description": "",
+  "images": [
+    {
+      "width": 2048,
+      "height": 1365,
+      "path": "./assets/photos/gallery/IMG_4359.jpg",
+      "compressed_path": "./assets/photos/gallery/IMG_4359.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/gallery/IMG_4359.placeholder.jpg",
+      "title": "",
+      "caption": "",
+      "keywords": ""
+    },
+    {
+      "width": 1024,
+      "height": 683,
+      "path": "./assets/photos/gallery/IMG_0024.jpg",
+      "compressed_path": "./assets/photos/gallery/IMG_0024.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/gallery/IMG_0024.placeholder.jpg",
+      "title": "",
+      "caption": "\u041c\u043e\u0440\u0433\u0430\u043d",
+      "keywords": ""
+    },
+    {
+      "width": 2048,
+      "height": 1365,
+      "path": "./assets/photos/gallery/IMG_4360.jpg",
+      "compressed_path": "./assets/photos/gallery/IMG_4360.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/gallery/IMG_4360.placeholder.jpg",
+      "title": "",
+      "caption": "",
+      "keywords": ""
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "path": "./assets/photos/gallery/IMG_1340.jpg",
+      "compressed_path": "./assets/photos/gallery/IMG_1340.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/gallery/IMG_1340.placeholder.jpg",
+      "title": "",
+      "caption": "",
+      "keywords": ""
+    },
+    {
+      "width": 2048,
+      "height": 1365,
+      "path": "./assets/photos/gallery/IMG_4361.jpg",
+      "compressed_path": "./assets/photos/gallery/IMG_4361.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/gallery/IMG_4361.placeholder.jpg",
+      "title": "",
+      "caption": "",
+      "keywords": ""
+    },
+    {
+      "width": 2048,
+      "height": 1365,
+      "path": "./assets/photos/gallery/IMG_1674.jpg",
+      "compressed_path": "./assets/photos/gallery/IMG_1674.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/gallery/IMG_1674.placeholder.jpg",
+      "title": "",
+      "caption": "",
+      "keywords": ""
+    },
+    {
+      "width": 2048,
+      "height": 1365,
+      "path": "./assets/photos/gallery/IMG_4358.jpg",
+      "compressed_path": "./assets/photos/gallery/IMG_4358.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/gallery/IMG_4358.placeholder.jpg",
+      "title": "",
+      "caption": "",
+      "keywords": ""
+    },
+    {
+      "width": 799,
+      "height": 683,
+      "path": "./assets/photos/gallery/IMG_0025.jpg",
+      "compressed_path": "./assets/photos/gallery/IMG_0025.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/gallery/IMG_0025.placeholder.jpg",
+      "title": "",
+      "caption": "",
+      "keywords": ""
+    }
+  ]
+}
