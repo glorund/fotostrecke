@@ -58,7 +58,7 @@ def get_path(path, ext):
 
 def get_images(path):
     items = os.listdir(PHOTO_PATH + '/' + path)
-    filtered_items = list(filter(is_original, items))
+    filtered_items = sorted(filter(is_original, items), key=str.lower)
 
     result = []
     for img in filtered_items:

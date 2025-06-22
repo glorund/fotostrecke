@@ -2,7 +2,7 @@
 
 SCRIPT_PATH=$(dirname "$0")
 
-export PATH=$PATH:/d/Program\ Files/ImageMagick-7.0.11-Q16-HDRI
+export PATH=$PATH:/d/Program\ Files/ImageMagick-7.1.1-Q16-HDRI
 
 cp -r src/sources/* src/assets/photos/ 
 # low res version of image
@@ -15,7 +15,6 @@ python $SCRIPT_PATH/tools/duplicate.py placeholder
 echo processing placeholders
 mogrify -resize 32x $SCRIPT_PATH/src/assets/photos/**/*.placeholder.jpg #&>/dev/null
 
-# TODO add watermark
 for i in $SCRIPT_PATH/src/assets/photos/**/*.jpg
 do
     if ! [[ "$i" =~ ".min.jpg" || "$i" =~ ".placeholder.jpg" ]]
