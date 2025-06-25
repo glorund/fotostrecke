@@ -53,7 +53,8 @@ def get_min_path(path):
 
 
 def get_path(path, ext):
-    return re.sub(r'\.(png|jpe?g)$', '.' + ext + '.\g<1>', path)
+    return re.sub(r'\.(png|jpe?g)$', r'.' + ext + r'.\g<1>', path)
+#    return re.sub(r'\.(png|jpe?g)$', '.' + ext + '.\g<1>', path)
 
 
 def get_images(path):
@@ -77,23 +78,23 @@ def get_images(path):
             has_compressed = True
         print('image {} {} {}'.format(img+' '+content_type, width, height) )
         
-        info = IPTCInfo(full_file_name)
+        info = IPTCInfo(full_file_name,force=True,inp_charset='utf8')
         keywords_decoded = info['keywords']
         if len(keywords_decoded) > 0:
             print("keywords: ", end ="") 
             for keyword in keywords_decoded:
-                keywords += keyword.decode('utf-8') + ","
-                print("%s" % keyword.decode('utf-8'), end=",")
+                keywords += keyword + ","
+                print("%s" % keyword, end=",")
             print()
         print("title detaction {}".format(info['object name']))
         if ( info['object name'] is not None ):
             print("found")
-            print("title %s" % info['object name'].decode('utf-8'))
-            title=info['object name'].decode('utf-8')
+            print("title %s" % info['object name'])
+            title=info['object name']
         print("caption")
         if (info['caption/abstract'] is not None ):
-            print("caption %s" % info['caption/abstract'].decode('utf-8'))
-            caption = info['caption/abstract'].decode('utf-8')
+            print("caption %s" % info['caption/abstract'])
+            caption = info['caption/abstract']
         result.append({
             'width': width,
             'height': height,
