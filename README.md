@@ -29,7 +29,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## how to build
-
 Wie man einen perfekten Kuchen kocht.
 
 prerequisites
@@ -44,3 +43,7 @@ git clone (url to this project)  ( better to use ssh)
 ng serve
 
 modify update files and run generate..
+
+## todo
+create og image (frame 1200*630) 
+convert background.jpg og-overlay.svg -composite og-image.png

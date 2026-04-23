@@ -1,0 +1,19 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Transparent background so you can place a photo behind it -->
+  <rect width="1200" height="630" fill="rgba(0,0,0,0)" />
+
+  <!-- Text overlay box -->
+  <rect x="40" y="450" width="700" height="140" rx="4"
+        fill="rgba(0,0,0,0.35)" />
+
+  <text x="70" y="510" fill="#fff" font-size="48"
+        font-family="Helvetica, Arial, sans-serif">
+    Agnes Adventure
+  </text>
+
+  <text x="70" y="560" fill="#fff" font-size="28"
+        font-family="Helvetica, Arial, sans-serif" opacity="0.85">
+    Fotografie von Agnessa Cherednychenko
+  </text>
+</svg>
+
