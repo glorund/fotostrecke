@@ -29,3 +29,18 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## how to build
+
+Wie man einen perfekten Kuchen kocht.
+
+prerequisites
+on windows I recomend git with git bash. (https://git-scm.com/install/windows)
+vscode
+TODO imagemagic
+
+run that bash
+create project folder like: d:/projects/
+
+git clone (url to this project)  ( better to use ssh)
+ng serve
+
+modify update files and run generate..

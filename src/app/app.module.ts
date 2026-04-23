@@ -13,6 +13,9 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ViewerComponent } from './viewer/viewer.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { BookingComponent } from './booking/booking.component';
+import { CalendarModule, DateAdapter } from 'angular-calendar';
+import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 
 
 @NgModule({
@@ -26,15 +29,18 @@ import { ContactsComponent } from './contacts/contacts.component';
       { path: '', redirectTo: '/gallery/main', pathMatch: 'full' },
       { path: 'gallery/:name', component: GalleryComponent },
       { path: 'viewer', component: ViewerComponent },
-      { path: 'contacts.jsp', component: ContactsComponent }
-    ])
+      { path: 'contacts.jsp', component: ContactsComponent },
+      { path: 'booking.php', component: BookingComponent }
+    ]),
+    CalendarModule.forRoot({ provide: DateAdapter, useFactory: adapterFactory })
   ],
   declarations: [
     AppComponent,
     TopBarComponent,
     GalleryComponent,
     ViewerComponent,
-    ContactsComponent
+    ContactsComponent,
+    BookingComponent
   ],
   bootstrap: [
     AppComponent
