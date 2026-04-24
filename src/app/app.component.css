@@ -7,3 +7,19 @@
   text-align: center;
   color: #ddd;
 }
+
+.footer .links {
+  display: inline-flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.footer .links__icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer .links__icon svg {
+  display: inline-block;
+}
