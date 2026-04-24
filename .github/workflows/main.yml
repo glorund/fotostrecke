@@ -36,6 +36,6 @@ jobs:
           mkdir -p ~/.ssh
           echo "$SSH_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          rsync -avz --delete dist/ gitdeployer@gotmog.agnesadventure.de:/var/www/fotostrecke/
+          rsync -avz --delete dist/fotostrecke/ gitdeployer@gotmog.agnesadventure.de:/var/www/fotostrecke/
         env:
           SSH_KEY: ${{ secrets.SSH_KEY }}
