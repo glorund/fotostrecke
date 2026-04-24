@@ -23,6 +23,14 @@ jobs:
       - name: Build Angular
         run: npm run build --prod
 
+      - name: Add known hosts
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+        env:
+          SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
+
       - name: Deploy via SSH
         run: |
           mkdir -p ~/.ssh
