@@ -1,0 +1,237 @@
+{
+  "title": "",
+  "description": "",
+  "images": [
+    {
+      "width": 5138,
+      "height": 4073,
+      "path": "./assets/photos/menschen/IMG_0058.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_0058.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_0058.placeholder.jpg",
+      "title": "Rotschopf im Pelzmantel",
+      "caption": "Eine Frau mit roten Haaren in einem weißen Pelzmantel sitzt mit erhobenen Händen und lächelt in die Kamera.",
+      "keywords": "fell,frau,hände,humor,lachen,mantel,pelz,portrait,rot,studio,warm,"
+    },
+    {
+      "width": 5014,
+      "height": 5013,
+      "path": "./assets/photos/menschen/IMG_0135.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_0135.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_0135.placeholder.jpg",
+      "title": "Badewanne im Sonnenlicht",
+      "caption": "Eine Frau mit roten Haaren sitzt in einer schwarzen freistehenden Badewanne mit einem Pelzschal und blickt verträumt zur Seite.",
+      "keywords": "badewanne,fell,frau,innen,licht,pelz,portrait,rot,schwarz,sonne,stimmung,träumerisch,"
+    },
+    {
+      "width": 4160,
+      "height": 4160,
+      "path": "./assets/photos/menschen/IMG_0546.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_0546.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_0546.placeholder.jpg",
+      "title": "Barocke Eleganz im Garten",
+      "caption": "Eine Frau in einem weißen und roten barocken Kostüm mit gepuderter Perücke und Rosenblüten lehnt an einem Baum in einem gepflegten Garten.",
+      "keywords": "barock,blumen,eleganz,frau,garten,kostüm,natur,perücke,rosen,rot,stil,theater,vintage,weiß,"
+    },
+    {
+      "width": 4061,
+      "height": 4061,
+      "path": "./assets/photos/menschen/IMG_0695.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_0695.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_0695.placeholder.jpg",
+      "title": "Mann hinter Glas",
+      "caption": "Ein junger Mann mit dunklem lockigem Haar und schwarzer Lederjacke schaut durch eine reflektierende metallische Oberfläche in die Kamera.",
+      "keywords": "dunkel,gesicht,haar,jacke,kette,leder,mann,metallisch,portrait,reflexion,schwarz,stimmung,"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./assets/photos/menschen/IMG_0775.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_0775.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_0775.placeholder.jpg",
+      "title": "Lässig mit Pampasgras",
+      "caption": "Ein Mann in schwarzer Lederjacke und Jeans sitzt vor einem Korbgeflecht mit trockenem Pampasgras vor einer hellen Wand.",
+      "keywords": "casual,denim,gras,haar,jeans,korb,lässig,leder,mann,pampasgras,portrait,sitzen,schwarz,"
+    },
+    {
+      "width": 4030,
+      "height": 4030,
+      "path": "./assets/photos/menschen/IMG_0956.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_0956.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_0956.placeholder.jpg",
+      "title": "Intensiver Blick im warmen Licht",
+      "caption": "Ein Mann mit langen dunklen Haaren und Oberkörper-frei lehnt nachdenklich an einem Kristalllüster und schaut nach unten.",
+      "keywords": "bart,dunkel,gesicht,haar,intensität,kette,kristall,licht,mann,männlich,nachdenklich,portrait,sinnlich,warm,"
+    },
+    {
+      "width": 4160,
+      "height": 4160,
+      "path": "./assets/photos/menschen/IMG_1080.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_1080.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_1080.placeholder.jpg",
+      "title": "Hinter dem Schleier",
+      "caption": "Ein Mann mit lockigem dunklem Haar und Blazer schaut seitwärts durch einen transparenten Vorhang im Gegenlicht.",
+      "keywords": "bart,blazer,dunkel,gegenlicht,haar,kette,licht,mann,portrait,reflexion,schleier,sonne,stimmung,vorhang,"
+    },
+    {
+      "width": 5509,
+      "height": 3962,
+      "path": "./assets/photos/menschen/IMG_1270.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_1270.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_1270.placeholder.jpg",
+      "title": "Tanz in der verlassenen Halle",
+      "caption": "Eine Frau in einem avantgardistischen schwarzen Outfit mit silbernen Puffärmeln tanzt in einer großen verlassenen Industriehalle.",
+      "keywords": "architektur,avantgarde,dunkel,frau,halle,industrie,kost\u00fcm,mode,silber,tanzen,verlassen,"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/menschen/IMG_1319.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_1319.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_1319.placeholder.jpg",
+      "title": "Futuristischer Gang",
+      "caption": "Eine Frau in einem futuristischen schwarzen Outfit mit silbernen Puffärmeln und hochgestecktem hellen Haar geht durch einen dunklen Industriegang.",
+      "keywords": "avantgarde,beton,dunkel,frau,futuristisch,gang,haar,industrie,kost\u00fcm,mode,schwarz,silber,"
+    },
+    {
+      "width": 5260,
+      "height": 4061,
+      "path": "./assets/photos/menschen/IMG_1352.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_1352.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_1352.placeholder.jpg",
+      "title": "Kauernde Stärke",
+      "caption": "Eine Frau in einem avantgardistischen schwarzen Outfit mit silbernen Puffärmeln kauert an einer Betonwand in einem düsteren Industrieraum.",
+      "keywords": "avantgarde,beton,dunkel,frau,industrie,kauern,kost\u00fcm,mode,ohrringe,schwarz,silber,stark,stimmung,"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/menschen/IMG_3430.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_3430.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_3430.placeholder.jpg",
+      "title": "Regenschirm im Dunkel",
+      "caption": "Eine Frau mit theatralischem Make-up und rotem Zebra-Top hält einen Regenschirm und blickt nachdenklich nach oben vor einem warmen, dunklen Hintergrund.",
+      "keywords": "dunkel,frau,make-up,regenschirm,rot,schwarz,stimmung,theater,vintage,zebra,"
+    },
+    {
+      "width": 4693,
+      "height": 4692,
+      "path": "./assets/photos/menschen/IMG_5000.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_5000.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_5000.placeholder.jpg",
+      "title": "Mutter und Tochter",
+      "caption": "Eine Doppelbelichtung zeigt das Profil einer älteren Frau und ein junges rothaariges Mädchen, eingehüllt in eine Decke, das ernst in die Kamera blickt.",
+      "keywords": "decke,doppelbelichtung,familie,frau,gesicht,haar,jung,kind,mädchen,mutter,portrait,rot,stimmung,tochter,"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/menschen/IMG_5040.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_5040.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_5040.placeholder.jpg",
+      "title": "Energie und Freude",
+      "caption": "Ein junges Mädchen mit langen roten Haaren kauert lachend auf dem Boden und hält die Hände erhoben, bekleidet mit einem weißen Shirt und zerrissenen Jeans.",
+      "keywords": "armband,energie,freude,haar,hände,jeans,kauern,lachen,mädchen,rot,studio,t-shirt,zerrissen,"
+    },
+    {
+      "width": 3154,
+      "height": 3154,
+      "path": "./assets/photos/menschen/IMG_5119.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_5119.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_5119.placeholder.jpg",
+      "title": "Stilles Portrait im Licht",
+      "caption": "Ein junges Mädchen mit langen roten Haaren und weißem T-Shirt blickt ruhig in die Kamera; ein unscharfer Stoff im Vordergrund rahmt das Bild ein.",
+      "keywords": "frau,haar,jung,licht,mädchen,portrait,rot,ruhe,sanft,studio,weiß,"
+    },
+    {
+      "width": 4160,
+      "height": 6240,
+      "path": "./assets/photos/menschen/IMG_5262.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_5262.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_5262.placeholder.jpg",
+      "title": "Im Lichtkreis",
+      "caption": "Ein junges Mädchen mit langen roten Haaren steht selbstbewusst in zerrissenen Jeans vor einem spiralförmigen Lichtmuster an der Wand.",
+      "keywords": "frau,haar,jeans,licht,mädchen,mode,portrait,rot,spiral,stimmung,studio,zerrissen,"
+    },
+    {
+      "width": 2335,
+      "height": 2335,
+      "path": "./assets/photos/menschen/IMG_5307.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_5307.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_5307.placeholder.jpg",
+      "title": "Lichtstreifen im Schwarz",
+      "caption": "Eine ältere Frau mit kurzen rotblonden Haaren und schwarzer Bluse blickt ruhig in die Kamera, umgeben von dramatischen Lichtstreifen an der Wand.",
+      "keywords": "bluse,dunkel,frau,gesicht,haar,licht,portrait,rot,ruhig,schatten,schwarz,streifen,"
+    },
+    {
+      "width": 6240,
+      "height": 4160,
+      "path": "./assets/photos/menschen/IMG_6223.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_6223.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_6223.placeholder.jpg",
+      "title": "Lächeln auf der Straße",
+      "caption": "Eine Frau mit hochgestecktem dunklem Haar und gelbem Strickpullover dreht sich lächelnd um und blickt über die Schulter in die Kamera vor einem Backsteinengebäude.",
+      "keywords": "außen,backsteine,braun,dunkel,frau,gebeck,gelb,haar,lächeln,ohrringe,portrait,pullover,straße,"
+    },
+    {
+      "width": 5324,
+      "height": 3851,
+      "path": "./assets/photos/menschen/IMG_6306.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_6306.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_6306.placeholder.jpg",
+      "title": "Versunkene Gedanken",
+      "caption": "Eine Frau mit langen dunklen Haaren und gelbem Strickpullover lehnt an einer Säule und fährt sich mit geschlossenen Augen durch die Haare.",
+      "keywords": "außen,dunkel,frau,gelb,gesicht,haar,nachdenklich,portrait,pullover,ruhe,säule,sanft,"
+    },
+    {
+      "width": 6198,
+      "height": 4132,
+      "path": "./assets/photos/menschen/IMG_6390.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_6390.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_6390.placeholder.jpg",
+      "title": "Kariertes Hemd an der Wand",
+      "caption": "Eine Frau mit langen dunklen Haaren in einem rot-schwarzen karierten Hemd lehnt an einer hellen Betonwand und blickt seitlich vorbei.",
+      "keywords": "außen,beton,dunkel,frau,haar,karohemd,lassen,licht,portrait,rot,schwarz,stadt,wand,"
+    },
+    {
+      "width": 2715,
+      "height": 2715,
+      "path": "./assets/photos/menschen/IMG_6835.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_6835.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_6835.placeholder.jpg",
+      "title": "Zylinder und rote Perlen",
+      "caption": "Eine Frau in einem schwarzen Trenchcoat und schwarzem Zylinder hält den Hut mit rotem Nagellack und einer roten Perlenkette und streckt das Gesicht dem Himmel entgegen.",
+      "keywords": "außen,frau,hut,kette,lack,lippenstift,mode,nagel,perlen,rot,schwarz,selbstbewusst,trenchcoat,zylinder,"
+    },
+    {
+      "width": 5706,
+      "height": 4160,
+      "path": "./assets/photos/menschen/IMG_9858.jpg",
+      "compressed_path": "./assets/photos/menschen/IMG_9858.min.jpg",
+      "compressed": true,
+      "placeholder_path": "./assets/photos/menschen/IMG_9858.placeholder.jpg",
+      "title": "Liegend auf dem Chesterfield",
+      "caption": "Eine Frau mit roten Haaren und einem weißen Pelzmantel liegt träge auf einem goldenen Chesterfield-Sofa und blickt verführerisch in die Kamera, umgeben von alten Briefen.",
+      "keywords": "briefe,chesterfield,dunkel,frau,haar,leder,licht,pelz,portrait,rot,sofa,stimmung,verführerisch,vintage,warm,"
+    }
+  ]
+}
