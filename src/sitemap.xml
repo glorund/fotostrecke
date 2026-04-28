@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://agnesadventure.de/</loc>
+    <loc>https://www.agnesadventure.de/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://agnesadventure.de/gallery/main</loc>
+    <loc>https://www.agnesadventure.de/gallery/main</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://agnesadventure.de/gallery/business</loc>
+    <loc>https://www.agnesadventure.de/gallery/business</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://agnesadventure.de/gallery/events</loc>
+    <loc>https://www.agnesadventure.de/gallery/events</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://agnesadventure.de/gallery/life-style</loc>
+    <loc>https://www.agnesadventure.de/gallery/life-style</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://agnesadventure.de/gallery/pets</loc>
+    <loc>https://www.agnesadventure.de/gallery/pets</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://agnesadventure.de/gallery/menschen</loc>
+    <loc>https://www.agnesadventure.de/gallery/menschen</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://agnesadventure.de/gallery/tecnical</loc>
+    <loc>https://www.agnesadventure.de/gallery/tecnical</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://agnesadventure.de/contacts.jsp</loc>
+    <loc>https://www.agnesadventure.de/contacts.jsp</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://agnesadventure.de/booking.php</loc>
+    <loc>https://www.agnesadventure.de/booking.php</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
