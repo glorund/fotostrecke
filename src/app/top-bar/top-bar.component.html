@@ -1,15 +1,15 @@
 <div class="header">Agnessa Cherednychenko</div>
 
 <div class="top-bar">
-  <button mat-button [routerLink]="['/gallery/main']">Main</button>
+  <button mat-button [routerLink]="['/gallery/main']">Start</button>
   <button mat-button [routerLink]="['/gallery/business']">Business</button>
-  <button mat-button [matMenuTriggerFor]="belowMenu">Projects</button>
+  <button mat-button [matMenuTriggerFor]="belowMenu">Projekte</button>
   <mat-menu #belowMenu="matMenu" yPosition="below">
-    <button mat-menu-item [routerLink]="['/gallery/life-style']">life style</button>
-    <button mat-menu-item [routerLink]="['/gallery/pets']">pets</button>
-    <button mat-menu-item [routerLink]="['/gallery/events']">events</button>
+    <button mat-menu-item [routerLink]="['/gallery/life-style']">Lifestyle</button>
+    <button mat-menu-item [routerLink]="['/gallery/pets']">Tiere</button>
+    <button mat-menu-item [routerLink]="['/gallery/events']">Events</button>
     <button mat-menu-item [routerLink]="['/gallery/menschen']">Menschen</button>
   </mat-menu>
 
-  <button mat-button [routerLink]="['/contacts.jsp']">Contact</button>
+  <button mat-button [routerLink]="['/contacts.jsp']">Kontakt</button>
 </div>
