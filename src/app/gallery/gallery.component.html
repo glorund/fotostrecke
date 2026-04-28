@@ -17,4 +17,9 @@
     </div>
 </div>
 
+<div class="gallery-info" *ngIf="galleryIs?.title || galleryIs?.description">
+    <h2 *ngIf="galleryIs?.title">{{ galleryIs.title }}</h2>
+    <p *ngIf="galleryIs?.description">{{ galleryIs.description }}</p>
+</div>
+
 <viewer></viewer>

@@ -2,6 +2,26 @@
     padding-left: 30px;
 }
 
+.gallery-info {
+    text-align: center;
+    padding: 40px 20px 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.gallery-info h2 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.gallery-info p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #888;
+    white-space: pre-line;
+}
+
 .galleryContainer img:hover {
     -webkit-filter: brightness(50%);
     filter: brightness(50%);

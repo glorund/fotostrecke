@@ -56,7 +56,7 @@ export class Photo implements Image {
 
 export interface Gallery {
   title: string;
-  decription: string;
+  description: string;
   images: Array<Image>;
 }
 
